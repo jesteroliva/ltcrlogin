@@ -3,6 +3,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import * as XLSX from 'xlsx';
 
+test.setTimeout(120000000); 
 test('Check Partner pages if Login is present', async ({ page }) => {
   // Resolve Excel path in common locations
   const candidates = [
@@ -32,6 +33,7 @@ test('Check Partner pages if Login is present', async ({ page }) => {
   type ResultRow = {
     URL: string;
     LoginVisible: 'YES' | 'NO';
+    LoginRedirect: 'YES' | 'NO';
     ScreenshotPath: string;
     ScreenshotTaken: 'YES' | 'NO';
     Error?: string;
@@ -47,6 +49,7 @@ test('Check Partner pages if Login is present', async ({ page }) => {
     const screenshotPath = path.join(screenshotDir, `${fileStem}.png`);
 
     let loginVisible: 'YES' | 'NO' = 'NO';
+    let loginRedirect: 'YES' | 'NO' = 'NO';
     let screenshotTaken: 'YES' | 'NO' = 'NO';
     let errorMessage = '';
     const stepName = row.Name?.trim() || row.URL;
@@ -55,10 +58,26 @@ test('Check Partner pages if Login is present', async ({ page }) => {
       await test.step(stepName, async () => {
         await page.goto(row.URL, { waitUntil: 'domcontentloaded' });
         try {
-          await expect(page.getByRole('link', { name: 'Login' })).toBeVisible();
-          loginVisible = 'YES';
+          const loginLink = page.getByRole('link', { name: 'Login' });
+          await test.step('Check for Login Button', async () => {
+          const isLoginVisible = await loginLink.isVisible();
+          loginVisible = isLoginVisible ? 'YES' : 'NO';
+          await expect.soft(loginLink).toBeVisible();
+          });
+          if (loginVisible === 'YES') {
+          await test.step('Click Login link and verify URL', async () => {
+          await loginLink.click();
+          try {
+            await expect(page).toHaveURL('https://ltcrplus.com/your-family-member-needs-care/#onlineLegalBenefits');
+            loginRedirect = 'YES';
+          } catch {
+            loginRedirect = 'NO';
+          }
+          });
+        }
         } catch (e) {
           loginVisible = 'NO';
+          loginRedirect = 'NO';
         
         }
         await page.screenshot({ path: screenshotPath, fullPage: true });
@@ -71,6 +90,7 @@ test('Check Partner pages if Login is present', async ({ page }) => {
     results.push({
       URL: row.URL,
       LoginVisible: loginVisible,
+      LoginRedirect: loginRedirect,
       ScreenshotPath: screenshotPath,
       ScreenshotTaken: screenshotTaken,
      // Error: errorMessage || undefined,
@@ -84,6 +104,7 @@ test('Check Partner pages if Login is present', async ({ page }) => {
   const ws = XLSX.utils.json_to_sheet(results.map((r: ResultRow) => ({
     URL: r.URL,
     'Login visible?(yes/no)': r.LoginVisible,
+    'Login redirect (yes/no)': r.LoginRedirect,
     //'Screenshot Taken?': r.ScreenshotTaken,
    // 'Screenshot Path': r.ScreenshotPath,
   //  'Error': r.Error || '',
