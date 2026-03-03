@@ -2,9 +2,20 @@ import { test, expect } from '@playwright/test';
 import * as path from 'path';
 import * as fs from 'fs';
 import * as XLSX from 'xlsx';
+const { RunReporter } = require('./reporter');
+const toMsg = (e: unknown) => (e instanceof Error ? e.message : String(e));
+
 
 test.setTimeout(120000000); 
 test('Check Partner pages if Login is present', async ({ page }) => {
+  const reporter = new RunReporter();
+reporter.log({
+  module: 'Check Partner pages if Login is present',
+  step: 'test_start',
+  //status: 'INFO',
+ // message: 'START'
+});
+
   // Resolve Excel path in common locations
   const candidates = [
     path.resolve(__dirname, '../urls/LogoCheck.xlsx'),
@@ -60,31 +71,53 @@ test('Check Partner pages if Login is present', async ({ page }) => {
         try {
           const loginLink = page.getByRole('link', { name: 'Login' });
           await test.step('Check for Login Button', async () => {
-          const isLoginVisible = await loginLink.isVisible();
-          loginVisible = isLoginVisible ? 'YES' : 'NO';
-          await expect.soft(loginLink).toBeVisible();
+           // reporter.log({ module: stepName, step: 'Check for Login Button', status: 'INFO', message: 'START' });
+            try {
+              const isLoginVisible = await loginLink.isVisible();
+              loginVisible = isLoginVisible ? 'YES' : 'NO';
+              await expect.soft(loginLink).toBeVisible();
+              reporter.log({ module: stepName, step: 'Check for Login Button', status: 'PASS', message: 'PASS' });
+              if(loginVisible === 'NO') {
+                reporter.log({ module: stepName, step: 'Check for Login Button', status: 'FAIL', message: 'Login link not visible' });
+              }
+            } catch (e) {
+              reporter.log({ module: stepName, step: 'Check for Login Button', status: 'FAIL', message: toMsg(e) });
+              throw e;
+            }
           });
+
           if (loginVisible === 'YES') {
-          await test.step('Click Login link and verify URL', async () => {
-          await loginLink.click();
-          try {
-            await expect(page).toHaveURL('https://ltcrplus.com/your-family-member-needs-care/#onlineLegalBenefits');
-            loginRedirect = 'YES';
-          } catch {
-            loginRedirect = 'NO';
+            await test.step('Click Login link and verify URL', async () => {
+              //reporter.log({ module: stepName, step: 'Click Login link and verify URL', status: 'INFO', message: 'START' });
+              try {
+                await loginLink.click();
+                try {
+                  await expect(page).toHaveURL('https://ltcrplus.com/your-family-member-needs-care/#onlineLegalBenefits');
+                  loginRedirect = 'YES';
+                  reporter.log({ module: stepName, step: 'Click Login link and verify URL', status: 'PASS', message: 'PASS' });
+                } catch {
+                  loginRedirect = 'NO';
+                  reporter.log({ module: stepName, step: 'Click Login link and verify URL', status: 'FAIL', message: 'Redirect URL did not match' });
+                }
+              } catch (e) {
+                reporter.log({ module: stepName, step: 'Click Login link and verify URL', status: 'FAIL', message: toMsg(e) });
+                throw e;
+              }
+            });
           }
-          });
-        }
+
         } catch (e) {
           loginVisible = 'NO';
           loginRedirect = 'NO';
-        
         }
         await page.screenshot({ path: screenshotPath, fullPage: true });
         screenshotTaken = 'YES';
       });
+
+
+      
     } catch (e) {
-      screenshotTaken = 'YES';
+      screenshotTaken = 'NO';
     }
 
     results.push({

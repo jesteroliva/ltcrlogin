@@ -1,0 +1,488 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Portal Automation Report - 2026-03-03_01-11-25_PM_PHT</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --line: #e8edf5;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --pass-bg: #e8f7ee;
+      --pass-text: #0f7a36;
+      --fail-bg: #fdecec;
+      --fail-text: #b42318;
+      --info-bg: #ebf4ff;
+      --info-text: #175cd3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .header {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    .title { margin: 0 0 8px; font-size: 24px; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .card h3 { margin: 0; font-size: 12px; color: var(--muted); font-weight: 600; }
+    .card p { margin: 8px 0 0; font-size: 24px; font-weight: 700; }
+    .card-actions {
+      margin-top: 10px;
+    }
+    .card-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .card-btn:hover { background: #f7f9ff; }
+    .card-btn[disabled] {
+      cursor: not-allowed;
+      color: var(--muted);
+      background: #f8fafc;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .fail-panel {
+      display: none;
+    }
+    .fail-panel.show {
+      display: block;
+    }
+    .fail-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .fail-list li {
+      margin: 6px 0;
+      font-size: 13px;
+    }
+    .panel h2 { margin: 8px 8px 12px; font-size: 16px; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 8px 10px;
+    }
+    .input, .select {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      background: #fff;
+    }
+    .table-wrap { overflow: auto; border-radius: 10px; }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      min-width: 850px;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 12px;
+      vertical-align: top;
+      background: #fff;
+    }
+    #detailsTable td:nth-child(6) {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: #4b5563;
+      cursor: pointer;
+      user-select: none;
+    }
+    th:hover { background: #f9fbff; }
+    .status-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .status-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .status-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .status-info { background: var(--info-bg); color: var(--info-text); }
+    .entry-kind {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .entry-kind-validation { background: #fff4d6; color: #8a5a00; }
+    .entry-kind-standard { background: #f2f4f7; color: #475467; }
+    .url-link {
+      color: #3f5bd8;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .url-link:hover { text-decoration: underline; }
+    .url-link-icon { font-size: 12px; line-height: 1; }
+    .na-text { color: var(--muted); font-weight: 600; }
+    .actions-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .action-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .action-chip-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .action-chip-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .action-chip-na { background: #f2f4f7; color: #475467; }
+    .view-actions-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .view-actions-btn:hover { background: #f7f9ff; }
+    .hint { color: var(--muted); font-size: 12px; padding: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Portal Automation Report</h1>
+      <div class="meta">Run ID: 2026-03-03_01-11-25_PM_PHT (PHT)</div>
+      <div class="meta">Generated: Mar 03, 2026, 01:11:52 PM (PHT)</div>
+      <div class="meta">Total Duration: N/A</div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><h3>Total Steps</h3><p>11</p></div>
+      <div class="card"><h3>PASS</h3><p>9</p></div>
+      <div class="card">
+        <h3>FAIL</h3>
+        <p>1</p>
+        <div class="card-actions">
+          <button id="viewFailModulesBtn" class="card-btn" type="button" >View Failed Modules</button>
+        </div>
+      </div>
+      <div class="card"><h3>INFO</h3><p>0</p></div>
+      <div class="card"><h3>Modules</h3><p>6</p></div>
+    </div>
+
+    <div id="failedModulesPanel" class="panel fail-panel">
+      <h2>Failed Modules</h2>
+      <div class="hint">Modules currently marked with FAIL status.</div>
+      <ul class="fail-list"><li>https://iscpa.ltcrplus.com/</li></ul>
+    </div>
+
+    <div class="panel">
+      <h2>Module Summary</h2>
+      <div class="hint">Click column headers to sort.</div>
+      <div class="table-wrap">
+        <table data-sortable>
+          <thead><tr><th>Module</th><th>URL</th><th>Actions Summary</th><th>Actions</th><th>Status</th></tr></thead>
+          <tbody><tr>
+          <td>Check Partner pages if Login is present</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-na" title="Check for Login Button not detected in logged steps.">Check for Login Button: N/A</span><span class="action-chip action-chip-na" title="Click Login link and verify URL not detected in logged steps.">Click Login link and verify URL: N/A</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="Check Partner pages if Login is present">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://elizc.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-pass" title="Check for Login Button executed without failed step logs.">Check for Login Button: PASS</span><span class="action-chip action-chip-pass" title="Click Login link and verify URL executed without failed step logs.">Click Login link and verify URL: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://elizc.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://iscpa.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-fail" title="Check for Login Button has at least one failed step.">Check for Login Button: FAIL</span><span class="action-chip action-chip-na" title="Click Login link and verify URL not detected in logged steps.">Click Login link and verify URL: N/A</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://iscpa.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-fail">FAIL</span></td>
+        </tr>
+<tr>
+          <td>https://lsus.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-pass" title="Check for Login Button executed without failed step logs.">Check for Login Button: PASS</span><span class="action-chip action-chip-pass" title="Click Login link and verify URL executed without failed step logs.">Click Login link and verify URL: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://lsus.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://umem.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-pass" title="Check for Login Button executed without failed step logs.">Check for Login Button: PASS</span><span class="action-chip action-chip-pass" title="Click Login link and verify URL executed without failed step logs.">Click Login link and verify URL: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://umem.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://wscaa.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-pass" title="Check for Login Button executed without failed step logs.">Check for Login Button: PASS</span><span class="action-chip action-chip-pass" title="Click Login link and verify URL executed without failed step logs.">Click Login link and verify URL: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://wscaa.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Step Details</h2>
+      <div class="toolbar">
+        <input id="searchInput" class="input" placeholder="Search module/step/message" />
+        <select id="statusFilter" class="select">
+          <option value="">All Statuses</option>
+          <option value="PASS">PASS</option>
+          <option value="FAIL">FAIL</option>
+          <option value="INFO">INFO</option>
+        </select>
+      </div>
+      <div class="hint">Click any header to sort. Use search/filter to narrow rows.</div>
+      <div class="table-wrap">
+        <table id="detailsTable" data-sortable>
+          <thead><tr><th>Time (PHT)</th><th>Module</th><th>Step</th><th>Indicator</th><th>Status</th><th>Message</th></tr></thead>
+          <tbody><tr>
+          <td>Mar 03, 2026, 01:11:25 PM (PHT)</td>
+          <td>Check Partner pages if Login is present</td>
+          <td>test_start</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-info"></span></td>
+          <td></td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:27 PM (PHT)</td>
+          <td>https://lsus.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:29 PM (PHT)</td>
+          <td>https://lsus.ltcrplus.com/</td>
+          <td>Click Login link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:33 PM (PHT)</td>
+          <td>https://wscaa.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:34 PM (PHT)</td>
+          <td>https://wscaa.ltcrplus.com/</td>
+          <td>Click Login link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:37 PM (PHT)</td>
+          <td>https://umem.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:39 PM (PHT)</td>
+          <td>https://umem.ltcrplus.com/</td>
+          <td>Click Login link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:43 PM (PHT)</td>
+          <td>https://elizc.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:44 PM (PHT)</td>
+          <td>https://elizc.ltcrplus.com/</td>
+          <td>Click Login link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:52 PM (PHT)</td>
+          <td>https://iscpa.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Mar 03, 2026, 01:11:52 PM (PHT)</td>
+          <td>https://iscpa.ltcrplus.com/</td>
+          <td>Check for Login Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-fail">FAIL</span></td>
+          <td>Login link not visible</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      function getCellValue(row, colIndex) {
+        return (row.children[colIndex]?.innerText || '').trim();
+      }
+
+      function makeSortable(table) {
+        const headers = table.querySelectorAll('thead th');
+        const tbody = table.querySelector('tbody');
+        headers.forEach((header, index) => {
+          let asc = true;
+          header.addEventListener('click', () => {
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort((a, b) => {
+              const va = getCellValue(a, index);
+              const vb = getCellValue(b, index);
+              return asc ? va.localeCompare(vb, undefined, { numeric: true, sensitivity: 'base' }) : vb.localeCompare(va, undefined, { numeric: true, sensitivity: 'base' });
+            });
+            asc = !asc;
+            rows.forEach((row) => tbody.appendChild(row));
+          });
+        });
+      }
+
+      document.querySelectorAll('table[data-sortable]').forEach(makeSortable);
+
+      const searchInput = document.getElementById('searchInput');
+      const statusFilter = document.getElementById('statusFilter');
+      const detailsTable = document.getElementById('detailsTable');
+      const rows = Array.from(detailsTable.querySelectorAll('tbody tr'));
+      const summaryPanel = document.querySelector('.panel');
+      const viewFailModulesBtn = document.getElementById('viewFailModulesBtn');
+      const failedModulesPanel = document.getElementById('failedModulesPanel');
+
+      function applyFilters() {
+        const query = (searchInput.value || '').toLowerCase();
+        const status = statusFilter.value;
+
+        rows.forEach((row) => {
+          const text = row.innerText.toLowerCase();
+          const rowStatus = getCellValue(row, 4).toUpperCase();
+          const matchesSearch = !query || text.includes(query);
+          const matchesStatus = !status || rowStatus === status;
+          row.style.display = matchesSearch && matchesStatus ? '' : 'none';
+        });
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      statusFilter.addEventListener('change', applyFilters);
+
+      if (viewFailModulesBtn && failedModulesPanel) {
+        viewFailModulesBtn.addEventListener('click', () => {
+          statusFilter.value = 'FAIL';
+          applyFilters();
+
+          const isShown = failedModulesPanel.classList.contains('show');
+          if (isShown) {
+            failedModulesPanel.classList.remove('show');
+          } else {
+            failedModulesPanel.classList.add('show');
+          }
+
+          const detailsPanel = detailsTable.closest('.panel');
+          if (detailsPanel) {
+            detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }
+
+      document.querySelectorAll('.view-actions-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+          const moduleName = button.getAttribute('data-module') || '';
+          searchInput.value = moduleName;
+          statusFilter.value = '';
+          applyFilters();
+          if (summaryPanel) {
+            const detailsPanels = document.querySelectorAll('.panel');
+            const detailsPanel = detailsPanels[1] || null;
+            if (detailsPanel) {
+              detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

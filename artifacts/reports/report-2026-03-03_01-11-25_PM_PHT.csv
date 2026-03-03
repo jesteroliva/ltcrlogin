@@ -1,0 +1,12 @@
+time,module,step,status,message
+2026-03-03 13:11:25 PHT,Check Partner pages if Login is present,test_start,,
+2026-03-03 13:11:27 PHT,https://lsus.ltcrplus.com/,Check for Login Button,PASS,PASS
+2026-03-03 13:11:29 PHT,https://lsus.ltcrplus.com/,Click Login link and verify URL,PASS,PASS
+2026-03-03 13:11:33 PHT,https://wscaa.ltcrplus.com/,Check for Login Button,PASS,PASS
+2026-03-03 13:11:34 PHT,https://wscaa.ltcrplus.com/,Click Login link and verify URL,PASS,PASS
+2026-03-03 13:11:37 PHT,https://umem.ltcrplus.com/,Check for Login Button,PASS,PASS
+2026-03-03 13:11:39 PHT,https://umem.ltcrplus.com/,Click Login link and verify URL,PASS,PASS
+2026-03-03 13:11:43 PHT,https://elizc.ltcrplus.com/,Check for Login Button,PASS,PASS
+2026-03-03 13:11:44 PHT,https://elizc.ltcrplus.com/,Click Login link and verify URL,PASS,PASS
+2026-03-03 13:11:52 PHT,https://iscpa.ltcrplus.com/,Check for Login Button,PASS,PASS
+2026-03-03 13:11:52 PHT,https://iscpa.ltcrplus.com/,Check for Login Button,FAIL,Login link not visible
