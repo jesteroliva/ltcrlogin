@@ -1,0 +1,6 @@
+time,module,step,status,message
+2026-04-18 10:44:35 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 10:46:01 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,FAIL,"page.waitForEvent: Test ended.
+=========================== logs ===========================
+waiting for event ""popup""
+============================================================"

@@ -1,0 +1,27 @@
+time,module,step,status,message
+2026-04-18 11:32:41 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 11:32:48 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-18 11:32:50 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple carriers - shop,PASS,PASS
+2026-04-18 11:32:53 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple Product Types -,PASS,PASS
+2026-04-18 11:32:55 PHT,https://ucdaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-18 11:32:58 PHT,https://ucdaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-18 11:33:00 PHT,https://ucdaa.ltcrplus.com/,Navigate through Lifetime Advocacy - Support,PASS,PASS
+2026-04-18 11:33:02 PHT,https://ucdaa.ltcrplus.com/,Navigate through LTC Funding Research,PASS,PASS
+2026-04-18 11:33:05 PHT,https://ucdaa.ltcrplus.com/,Navigate through Advice & Counseling,PASS,PASS
+2026-04-18 11:33:07 PHT,https://ucdaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:33:07 PHT,https://ucdaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:33:08 PHT,https://ucdaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-18 11:33:12 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-18 11:33:14 PHT,https://ucdaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-18 11:33:16 PHT,https://ucdaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-18 11:33:19 PHT,https://ucdaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-18 11:33:21 PHT,https://ucdaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-18 11:33:24 PHT,https://ucdaa.ltcrplus.com/,Navigate through Members / Consumers,PASS,PASS
+2026-04-18 11:36:24 PHT,https://ucdaa.ltcrplus.com/,Navigate through Agents / Advisers,FAIL,"locator.click: Test ended.
+Call log:
+[2m  - waiting for getByRole('link', { name: 'Agents / Advisers' })[22m
+"
+2026-04-18 11:36:24 PHT,https://ucdaa.ltcrplus.com/,"Navigate through NEW Buttons on Members/Consumers, Agents/Advisors, Affinity Groups pages",FAIL,"locator.click: Test ended.
+Call log:
+[2m  - waiting for getByRole('link', { name: 'Agents / Advisers' })[22m
+"

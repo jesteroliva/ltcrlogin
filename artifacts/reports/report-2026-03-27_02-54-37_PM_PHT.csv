@@ -1,0 +1,50 @@
+time,module,step,status,message
+2026-03-27 14:54:37 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-03-27 14:54:42 PHT,https://purdue.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:54:45 PHT,https://purdue.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:54:48 PHT,https://purdue.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:54:51 PHT,https://purdue.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:54:54 PHT,https://purdue.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:54:56 PHT,https://purdue.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:54:58 PHT,https://purdue.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:54:58 PHT,https://purdue.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:55:00 PHT,https://purdue.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:55:07 PHT,https://purdue.ltcrplus.com/,Check link for careNavigation,PASS,PASS
+2026-03-27 14:55:13 PHT,https://purdue.ltcrplus.com/,Check link for onlineLegalBenefits,PASS,PASS
+2026-03-27 14:55:19 PHT,https://purdue.ltcrplus.com/,Check link for careDiscounts,PASS,PASS
+2026-03-27 14:55:25 PHT,https://purdue.ltcrplus.com/,Check link for claimsAssistance,PASS,PASS
+2026-03-27 14:55:31 PHT,https://purdue.ltcrplus.com/,Check link for maximizeBenefits,PASS,PASS
+2026-03-27 14:55:37 PHT,https://purdue.ltcrplus.com/,Check link for adviceAndCounseling,PASS,PASS
+2026-03-27 14:55:43 PHT,https://uncaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:55:46 PHT,https://uncaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:55:48 PHT,https://uncaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:55:51 PHT,https://uncaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:55:53 PHT,https://uncaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:55:56 PHT,https://uncaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:55:58 PHT,https://uncaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:55:58 PHT,https://uncaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:56:00 PHT,https://uncaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:56:06 PHT,https://uncaa.ltcrplus.com/,Check link for careNavigation,PASS,PASS
+2026-03-27 14:56:12 PHT,https://uncaa.ltcrplus.com/,Check link for onlineLegalBenefits,PASS,PASS
+2026-03-27 14:56:18 PHT,https://uncaa.ltcrplus.com/,Check link for careDiscounts,PASS,PASS
+2026-03-27 14:56:25 PHT,https://uncaa.ltcrplus.com/,Check link for claimsAssistance,PASS,PASS
+2026-03-27 14:56:30 PHT,https://uncaa.ltcrplus.com/,Check link for maximizeBenefits,PASS,PASS
+2026-03-27 14:56:36 PHT,https://uncaa.ltcrplus.com/,Check link for adviceAndCounseling,PASS,PASS
+2026-03-27 14:56:41 PHT,https://psuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:56:45 PHT,https://psuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:56:48 PHT,https://psuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:56:50 PHT,https://psuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:56:53 PHT,https://psuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:56:55 PHT,https://psuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:56:57 PHT,https://psuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:56:57 PHT,https://psuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:56:58 PHT,https://psuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:57:04 PHT,https://psuaa.ltcrplus.com/,Check link for careNavigation,PASS,PASS
+2026-03-27 14:57:10 PHT,https://psuaa.ltcrplus.com/,Check link for onlineLegalBenefits,PASS,PASS
+2026-03-27 14:57:16 PHT,https://psuaa.ltcrplus.com/,Check link for careDiscounts,PASS,PASS
+2026-03-27 14:57:22 PHT,https://psuaa.ltcrplus.com/,Check link for claimsAssistance,PASS,PASS
+2026-03-27 14:57:26 PHT,https://psuaa.ltcrplus.com/,Check link for maximizeBenefits,FAIL,"page.goto: Test ended.
+Call log:
+[2m  - navigating to ""https://ltcrplus.com/your-family-member-needs-care/#maximizeBenefits"", waiting until ""load""[22m
+"
+2026-03-27 14:57:26 PHT,https://psuaa.ltcrplus.com/,Check link for adviceAndCounseling,FAIL,"page.goto: Target page, context or browser has been closed"

@@ -1,0 +1,37 @@
+time,module,step,status,message
+2026-04-10 13:33:45 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-10 13:33:52 PHT,https://purdue.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:33:54 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:33:57 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:33:59 PHT,https://purdue.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:34:02 PHT,https://purdue.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:34:04 PHT,https://purdue.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:34:08 PHT,https://purdue.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:34:11 PHT,https://purdue.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:34:13 PHT,https://purdue.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:34:25 PHT,https://purdue.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  10000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 10000ms[22m
+[2m    13 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
+2026-04-10 13:34:31 PHT,https://uncaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:34:35 PHT,https://uncaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:34:39 PHT,https://uncaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:34:42 PHT,https://uncaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:34:47 PHT,https://uncaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:34:51 PHT,https://uncaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:34:55 PHT,https://uncaa.ltcrplus.com/,LTC Funding Research,FAIL,"[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: getByText('To speak to a LTC Funding')
+Expected: visible
+Error: element(s) not found
+
+Call log:
+[2m  - Expect ""toBeVisible"" with timeout 5000ms[22m
+[2m  - waiting for getByText('To speak to a LTC Funding')[22m
+"

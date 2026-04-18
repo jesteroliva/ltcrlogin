@@ -1,0 +1,6 @@
+time,module,step,status,message
+2026-04-18 10:43:30 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 10:44:00 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,FAIL,"page.waitForEvent: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for event ""popup""
+============================================================"

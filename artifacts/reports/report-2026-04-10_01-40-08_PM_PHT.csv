@@ -1,0 +1,31 @@
+time,module,step,status,message
+2026-04-10 13:40:08 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-10 13:40:15 PHT,https://purdue.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:40:21 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:40:25 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:40:29 PHT,https://purdue.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:40:34 PHT,https://purdue.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:40:38 PHT,https://purdue.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:40:46 PHT,https://purdue.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:40:51 PHT,https://purdue.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:40:53 PHT,https://purdue.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:40:56 PHT,https://purdue.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-10 13:40:59 PHT,https://purdue.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-10 13:41:01 PHT,https://purdue.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-10 13:41:04 PHT,https://purdue.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-10 13:41:07 PHT,https://purdue.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-10 13:41:10 PHT,https://purdue.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-10 13:41:12 PHT,https://purdue.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-10 13:41:14 PHT,https://purdue.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-10 13:41:17 PHT,https://purdue.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-10 13:41:17 PHT,https://purdue.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-10 13:41:18 PHT,https://purdue.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-10 13:41:24 PHT,https://uncaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:41:24 PHT,https://uncaa.ltcrplus.com/,Navigate through Multiple Carriers,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/members-advantage\/#multipleCarriers$/[39m
+Received string:  [31m""""[39m
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+"

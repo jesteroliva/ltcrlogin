@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Automation Report - 2026-04-18_10-53-05_AM_PHT</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --line: #e8edf5;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --pass-bg: #e8f7ee;
+      --pass-text: #0f7a36;
+      --fail-bg: #fdecec;
+      --fail-text: #b42318;
+      --info-bg: #ebf4ff;
+      --info-text: #175cd3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .header {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    .title { margin: 0 0 8px; font-size: 24px; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .card h3 { margin: 0; font-size: 12px; color: var(--muted); font-weight: 600; }
+    .card p { margin: 8px 0 0; font-size: 24px; font-weight: 700; }
+    .card-actions {
+      margin-top: 10px;
+    }
+    .card-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .card-btn:hover { background: #f7f9ff; }
+    .card-btn[disabled] {
+      cursor: not-allowed;
+      color: var(--muted);
+      background: #f8fafc;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .fail-panel {
+      display: none;
+    }
+    .fail-panel.show {
+      display: block;
+    }
+    .fail-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .fail-list li {
+      margin: 6px 0;
+      font-size: 13px;
+    }
+    .panel h2 { margin: 8px 8px 12px; font-size: 16px; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 8px 10px;
+    }
+    .input, .select {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      background: #fff;
+    }
+    .table-wrap { overflow: auto; border-radius: 10px; }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      min-width: 850px;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 12px;
+      vertical-align: top;
+      background: #fff;
+    }
+    #detailsTable td:nth-child(6) {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: #4b5563;
+      cursor: pointer;
+      user-select: none;
+    }
+    th:hover { background: #f9fbff; }
+    .status-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .status-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .status-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .status-info { background: var(--info-bg); color: var(--info-text); }
+    .entry-kind {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .entry-kind-validation { background: #fff4d6; color: #8a5a00; }
+    .entry-kind-standard { background: #f2f4f7; color: #475467; }
+    .url-link {
+      color: #3f5bd8;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .url-link:hover { text-decoration: underline; }
+    .url-link-icon { font-size: 12px; line-height: 1; }
+    .na-text { color: var(--muted); font-weight: 600; }
+    .actions-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .action-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .action-chip-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .action-chip-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .action-chip-na { background: #f2f4f7; color: #475467; }
+    .view-actions-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .view-actions-btn:hover { background: #f7f9ff; }
+    .hint { color: var(--muted); font-size: 12px; padding: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Automation Report</h1>
+      <div class="meta">Run ID: 2026-04-18_10-53-05_AM_PHT (PHT)</div>
+      <div class="meta">Generated: Apr 18, 2026, 10:53:05 AM (PHT)</div>
+      <div class="meta"><b>Total Duration:</b> N/A</div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><h3>Total Steps</h3><p>0</p></div>
+      <div class="card"><h3>PASS</h3><p>0</p></div>
+      <div class="card">
+        <h3>FAIL</h3>
+        <p>0</p>
+        <div class="card-actions">
+          <button id="viewFailModulesBtn" class="card-btn" type="button" disabled>View Failed Modules</button>
+        </div>
+      </div>
+      <div class="card"><h3>INFO</h3><p>0</p></div>
+      <div class="card"><h3>Modules</h3><p>0</p></div>
+    </div>
+
+    <div id="failedModulesPanel" class="panel fail-panel">
+      <h2>Failed Modules</h2>
+      <div class="hint">Modules currently marked with FAIL status.</div>
+      <ul class="fail-list"><li>No failed modules.</li></ul>
+    </div>
+
+    <div class="panel">
+      <h2>Module Summary</h2>
+      <div class="hint">Click column headers to sort.</div>
+      <div class="table-wrap">
+        <table data-sortable>
+          <thead><tr><th>Module</th><th>URL</th><th>Actions Summary</th><th>Actions</th><th>Status</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Step Details</h2>
+      <div class="toolbar">
+        <input id="searchInput" class="input" placeholder="Search module/step/message" />
+        <select id="statusFilter" class="select">
+          <option value="">All Statuses</option>
+          <option value="PASS">PASS</option>
+          <option value="FAIL">FAIL</option>
+          <option value="INFO">INFO</option>
+        </select>
+      </div>
+      <div class="hint">Click any header to sort. Use search/filter to narrow rows.</div>
+      <div class="table-wrap">
+        <table id="detailsTable" data-sortable>
+          <thead><tr><th>Time (PHT)</th><th>Module</th><th>Step</th><th>Indicator</th><th>Status</th><th>Message</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      function getCellValue(row, colIndex) {
+        return (row.children[colIndex]?.innerText || '').trim();
+      }
+
+      function makeSortable(table) {
+        const headers = table.querySelectorAll('thead th');
+        const tbody = table.querySelector('tbody');
+        headers.forEach((header, index) => {
+          let asc = true;
+          header.addEventListener('click', () => {
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort((a, b) => {
+              const va = getCellValue(a, index);
+              const vb = getCellValue(b, index);
+              return asc ? va.localeCompare(vb, undefined, { numeric: true, sensitivity: 'base' }) : vb.localeCompare(va, undefined, { numeric: true, sensitivity: 'base' });
+            });
+            asc = !asc;
+            rows.forEach((row) => tbody.appendChild(row));
+          });
+        });
+      }
+
+      document.querySelectorAll('table[data-sortable]').forEach(makeSortable);
+
+      const searchInput = document.getElementById('searchInput');
+      const statusFilter = document.getElementById('statusFilter');
+      const detailsTable = document.getElementById('detailsTable');
+      const rows = Array.from(detailsTable.querySelectorAll('tbody tr'));
+      const summaryPanel = document.querySelector('.panel');
+      const viewFailModulesBtn = document.getElementById('viewFailModulesBtn');
+      const failedModulesPanel = document.getElementById('failedModulesPanel');
+
+      function applyFilters() {
+        const query = (searchInput.value || '').toLowerCase();
+        const status = statusFilter.value;
+
+        rows.forEach((row) => {
+          const text = row.innerText.toLowerCase();
+          const rowStatus = getCellValue(row, 4).toUpperCase();
+          const matchesSearch = !query || text.includes(query);
+          const matchesStatus = !status || rowStatus === status;
+          row.style.display = matchesSearch && matchesStatus ? '' : 'none';
+        });
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      statusFilter.addEventListener('change', applyFilters);
+
+      if (viewFailModulesBtn && failedModulesPanel) {
+        viewFailModulesBtn.addEventListener('click', () => {
+          statusFilter.value = 'FAIL';
+          applyFilters();
+
+          const isShown = failedModulesPanel.classList.contains('show');
+          if (isShown) {
+            failedModulesPanel.classList.remove('show');
+          } else {
+            failedModulesPanel.classList.add('show');
+          }
+
+          const detailsPanel = detailsTable.closest('.panel');
+          if (detailsPanel) {
+            detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }
+
+      document.querySelectorAll('.view-actions-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+          const moduleName = button.getAttribute('data-module') || '';
+          searchInput.value = moduleName;
+          statusFilter.value = '';
+          applyFilters();
+          if (summaryPanel) {
+            const detailsPanels = document.querySelectorAll('.panel');
+            const detailsPanel = detailsPanels[1] || null;
+            if (detailsPanel) {
+              detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

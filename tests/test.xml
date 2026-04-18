@@ -1,0 +1,701 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+<NewDataSet xmlns="">
+<Table diffgr:id="Table1" msdata:rowOrder="0">
+<Company>11</Company>
+<Policynum>296720-95 </Policynum>
+<CommissionablePremium>22.1200</CommissionablePremium>
+<CommRate>13</CommRate>
+<CommPaid>2.8800</CommPaid>
+<WritingAgtNum>0869480 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248687</RecID>
+<TransDate>2026-02-18T06:00:00-08:00</TransDate>
+<Filename>GLD_1206_20260225-181520.XML </Filename>
+<InsuredName>STEPHEN BOWYER </InsuredName>
+<EffDate>2020-06-05T06:00:00-07:00</EffDate>
+<PaidToDate>2026-03-05T06:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>WV</state>
+<IssueAge>68</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>Critical Illness </policytype>
+</Table>
+<Table diffgr:id="Table2329" msdata:rowOrder="2328">
+<Company>48</Company>
+<Policynum>579627-95 </Policynum>
+<CommissionablePremium>132.5600</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>33.1400</CommPaid>
+<WritingAgtNum>0771801 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247962</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>KEVIN LAWRENCE </InsuredName>
+<EffDate>2021-07-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>ID</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2330" msdata:rowOrder="2329">
+<Company>48</Company>
+<Policynum>584384-95 </Policynum>
+<CommissionablePremium>107.8700</CommissionablePremium>
+<CommRate>12</CommRate>
+<CommPaid>12.9400</CommPaid>
+<WritingAgtNum>0906947 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247952</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>LORRAINE SEILER </InsuredName>
+<EffDate>2021-04-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>AR</state>
+<IssueAge>85</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2331" msdata:rowOrder="2330">
+<Company>48</Company>
+<Policynum>633435-95 </Policynum>
+<CommissionablePremium>99.4800</CommissionablePremium>
+<CommRate>29</CommRate>
+<CommPaid>28.8500</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247969</RecID>
+<TransDate>2026-02-18T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>RICHARD MARTINELLI </InsuredName>
+<EffDate>2021-06-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>NV</state>
+<IssueAge>65</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2332" msdata:rowOrder="2331">
+<Company>48</Company>
+<Policynum>790762-95 </Policynum>
+<CommissionablePremium>112.1600</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>28.0400</CommPaid>
+<WritingAgtNum>0860551 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248018</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>DENISE KOPAN </InsuredName>
+<EffDate>2021-12-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>NM</state>
+<IssueAge>66</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2333" msdata:rowOrder="2332">
+<Company>48</Company>
+<Policynum>451460-96 </Policynum>
+<CommissionablePremium>87.0700</CommissionablePremium>
+<CommRate>3</CommRate>
+<CommPaid>2.6100</CommPaid>
+<WritingAgtNum>0492580 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247810</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>JANINE TATE </InsuredName>
+<EffDate>2023-01-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>KS</state>
+<IssueAge>67</IssueAge>
+<Distribution>acsiapartners</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2334" msdata:rowOrder="2333">
+<Company>48</Company>
+<Policynum>451675-96 </Policynum>
+<CommissionablePremium>116.1600</CommissionablePremium>
+<CommRate>3</CommRate>
+<CommPaid>3.4800</CommPaid>
+<WritingAgtNum>0492580 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247811</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>ALEXANDER TATE </InsuredName>
+<EffDate>2023-01-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>KS</state>
+<IssueAge>72</IssueAge>
+<Distribution>acsiapartners</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2335" msdata:rowOrder="2334">
+<Company>48</Company>
+<Policynum>682574-96 </Policynum>
+<CommissionablePremium>142.8500</CommissionablePremium>
+<CommRate>3</CommRate>
+<CommPaid>4.2900</CommPaid>
+<WritingAgtNum>0517417 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247793</RecID>
+<TransDate>2026-02-18T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>GLEN KELLERER </InsuredName>
+<EffDate>2023-11-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>ID</state>
+<IssueAge>66</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2336" msdata:rowOrder="2335">
+<Company>92</Company>
+<Policynum>787157-94 </Policynum>
+<CommissionablePremium>38.7200</CommissionablePremium>
+<CommRate>7</CommRate>
+<CommPaid>2.7100</CommPaid>
+<WritingAgtNum>0872822 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248278</RecID>
+<TransDate>2026-02-24T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>RICHARD CARTWRIGHT </InsuredName>
+<EffDate>2020-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2027-03-01T00:00:00-08:00</PaidToDate>
+<mode>A</mode>
+<state>TX</state>
+<IssueAge>70</IssueAge>
+<Distribution>uig-career</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2337" msdata:rowOrder="2336">
+<Company>92</Company>
+<Policynum>787157-94 </Policynum>
+<CommissionablePremium>425.9200</CommissionablePremium>
+<CommRate>28.75</CommRate>
+<CommPaid>122.4300</CommPaid>
+<WritingAgtNum>0872822 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248279</RecID>
+<TransDate>2026-02-24T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>RICHARD CARTWRIGHT </InsuredName>
+<EffDate>2020-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2027-03-01T00:00:00-08:00</PaidToDate>
+<mode>A</mode>
+<state>TX</state>
+<IssueAge>70</IssueAge>
+<Distribution>uig-career</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2338" msdata:rowOrder="2337">
+<Company>92</Company>
+<Policynum>803774-94 </Policynum>
+<CommissionablePremium>98.0500</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>24.5100</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248265</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>LEE ANN HUDSON </InsuredName>
+<EffDate>2020-01-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>65</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2339" msdata:rowOrder="2338">
+<Company>92</Company>
+<Policynum>814638-94 </Policynum>
+<CommissionablePremium>123.4900</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>30.8700</CommPaid>
+<WritingAgtNum>0869480 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248273</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>JESSE HEATH </InsuredName>
+<EffDate>2020-01-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>73</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2340" msdata:rowOrder="2339">
+<Company>92</Company>
+<Policynum>823551-94 </Policynum>
+<CommissionablePremium>32.5400</CommissionablePremium>
+<CommRate>7</CommRate>
+<CommPaid>2.2800</CommPaid>
+<WritingAgtNum>0872822 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248280</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>VICKI CARTWRIGHT </InsuredName>
+<EffDate>2020-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2027-03-01T00:00:00-08:00</PaidToDate>
+<mode>A</mode>
+<state>TX</state>
+<IssueAge>68</IssueAge>
+<Distribution>uig-career</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2341" msdata:rowOrder="2340">
+<Company>92</Company>
+<Policynum>823551-94 </Policynum>
+<CommissionablePremium>357.9400</CommissionablePremium>
+<CommRate>28.75</CommRate>
+<CommPaid>102.9600</CommPaid>
+<WritingAgtNum>0872822 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248281</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>VICKI CARTWRIGHT </InsuredName>
+<EffDate>2020-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2027-03-01T00:00:00-08:00</PaidToDate>
+<mode>A</mode>
+<state>TX</state>
+<IssueAge>68</IssueAge>
+<Distribution>uig-career</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2342" msdata:rowOrder="2341">
+<Company>92</Company>
+<Policynum>857976-94 </Policynum>
+<CommissionablePremium>98.0500</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>24.5100</CommPaid>
+<WritingAgtNum>0771801 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248272</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>VANESSA VANHOESEN </InsuredName>
+<EffDate>2020-01-17T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-17T00:00:00-07:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>65</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2343" msdata:rowOrder="2342">
+<Company>92</Company>
+<Policynum>940473-94 </Policynum>
+<CommissionablePremium>105.4200</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>26.3600</CommPaid>
+<WritingAgtNum>0771801 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248243</RecID>
+<TransDate>2026-02-18T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>SANDRA SHERER </InsuredName>
+<EffDate>2020-10-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2344" msdata:rowOrder="2343">
+<Company>92</Company>
+<Policynum>961941-94 </Policynum>
+<CommissionablePremium>136.2400</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>34.0600</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248199</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>JANIE ESCAMILLA </InsuredName>
+<EffDate>2020-05-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>65</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2345" msdata:rowOrder="2344">
+<Company>92</Company>
+<Policynum>964719-94 </Policynum>
+<CommissionablePremium>146.5100</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>36.6300</CommPaid>
+<WritingAgtNum>0869480 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248189</RecID>
+<TransDate>2026-02-24T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>JUAN FLORES </InsuredName>
+<EffDate>2020-06-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>70</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2346" msdata:rowOrder="2345">
+<Company>92</Company>
+<Policynum>964779-94 </Policynum>
+<CommissionablePremium>119.8900</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>29.9700</CommPaid>
+<WritingAgtNum>0869480 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248190</RecID>
+<TransDate>2026-02-24T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>SANJUANITA FLORES </InsuredName>
+<EffDate>2020-06-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>65</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2347" msdata:rowOrder="2346">
+<Company>92</Company>
+<Policynum>977585-94 </Policynum>
+<CommissionablePremium>360.5400</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>90.1500</CommPaid>
+<WritingAgtNum>0865381 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248191</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>DAVID WASICEK </InsuredName>
+<EffDate>2020-08-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-06-01T00:00:00-07:00</PaidToDate>
+<mode>Q</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2348" msdata:rowOrder="2347">
+<Company>92</Company>
+<Policynum>325398-95 </Policynum>
+<CommissionablePremium>107.2200</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>26.8100</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14248203</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>DEMETRIO LUNA </InsuredName>
+<EffDate>2020-08-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>66</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2349" msdata:rowOrder="2348">
+<Company>92</Company>
+<Policynum>391256-95 </Policynum>
+<CommissionablePremium>105.4200</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>26.3600</CommPaid>
+<WritingAgtNum>0906947 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247900</RecID>
+<TransDate>2026-02-20T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>SHEILA ROBERTS </InsuredName>
+<EffDate>2021-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2350" msdata:rowOrder="2349">
+<Company>92</Company>
+<Policynum>394447-95 </Policynum>
+<CommissionablePremium>136.5700</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>34.1400</CommPaid>
+<WritingAgtNum>0906947 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247888</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>GERALD JOHNSON </InsuredName>
+<EffDate>2020-12-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2351" msdata:rowOrder="2350">
+<Company>92</Company>
+<Policynum>417824-95 </Policynum>
+<CommissionablePremium>123.0600</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>30.7700</CommPaid>
+<WritingAgtNum>0822662 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247891</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>CHARLES SAVAGE </InsuredName>
+<EffDate>2020-10-21T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-21T00:00:00-07:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>68</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2352" msdata:rowOrder="2351">
+<Company>92</Company>
+<Policynum>519810-95 </Policynum>
+<CommissionablePremium>153.2700</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>38.3200</CommPaid>
+<WritingAgtNum>0867590 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247922</RecID>
+<TransDate>2026-02-18T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>MARTHA FITZGERALD </InsuredName>
+<EffDate>2021-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>79</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2353" msdata:rowOrder="2352">
+<Company>92</Company>
+<Policynum>534530-95 </Policynum>
+<CommissionablePremium>106.8800</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>26.7200</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247917</RecID>
+<TransDate>2026-02-23T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>LESLIE WERNER </InsuredName>
+<EffDate>2021-02-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2354" msdata:rowOrder="2353">
+<Company>92</Company>
+<Policynum>547584-95 </Policynum>
+<CommissionablePremium>110.4800</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>27.6200</CommPaid>
+<WritingAgtNum>0860551 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247946</RecID>
+<TransDate>2026-02-19T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>JO ALLSOPP </InsuredName>
+<EffDate>2021-03-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>69</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2355" msdata:rowOrder="2354">
+<Company>92</Company>
+<Policynum>553681-95 </Policynum>
+<CommissionablePremium>92.0300</CommissionablePremium>
+<CommRate>28.75</CommRate>
+<CommPaid>26.4600</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247934</RecID>
+<TransDate>2026-02-18T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>BERTIE BOWDOIN </InsuredName>
+<EffDate>2021-03-01T00:00:00-08:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>70</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2356" msdata:rowOrder="2355">
+<Company>92</Company>
+<Policynum>566101-95 </Policynum>
+<CommissionablePremium>119.8900</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>29.9700</CommPaid>
+<WritingAgtNum>0771801 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247939</RecID>
+<TransDate>2026-02-19T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>GASALDEEN BACON </InsuredName>
+<EffDate>2021-09-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>64</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2357" msdata:rowOrder="2356">
+<Company>92</Company>
+<Policynum>610398-95 </Policynum>
+<CommissionablePremium>133.8700</CommissionablePremium>
+<CommRate>25</CommRate>
+<CommPaid>33.4700</CommPaid>
+<WritingAgtNum>0859082 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14247955</RecID>
+<TransDate>2026-02-19T00:00:00-08:00</TransDate>
+<Filename>aim_1206_20260225-181323.xml </Filename>
+<InsuredName>TIMOTHY DONNELLY </InsuredName>
+<EffDate>2021-06-01T00:00:00-07:00</EffDate>
+<PaidToDate>2026-03-01T00:00:00-08:00</PaidToDate>
+<mode>M</mode>
+<state>TX</state>
+<IssueAge>70</IssueAge>
+<Distribution>uig-broker</Distribution>
+<policytype>MedSup </policytype>
+</Table>
+<Table diffgr:id="Table2358" msdata:rowOrder="2357">
+<Company>11</Company>
+<Policynum>760719-93 </Policynum>
+<CommissionablePremium>54.8200</CommissionablePremium>
+<CommRate>8</CommRate>
+<CommPaid>4.3900</CommPaid>
+<WritingAgtNum>0657529 </WritingAgtNum>
+<PaidAgtNum>0832469 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14250103</RecID>
+<TransDate>2026-02-24T06:00:00-08:00</TransDate>
+<Filename>GLD_1206_20260225-181520.XML </Filename>
+<InsuredName>TINA BONDS </InsuredName>
+<EffDate>2018-07-24T06:00:00-07:00</EffDate>
+<PaidToDate>2026-03-24T06:00:00-07:00</PaidToDate>
+<mode>M</mode>
+</Table>
+<Table diffgr:id="Table2359" msdata:rowOrder="2358">
+<Company>11</Company>
+<Policynum>BU2180292 </Policynum>
+<CommissionablePremium>20.8300</CommissionablePremium>
+<CommRate>2.5</CommRate>
+<CommPaid>0.5200</CommPaid>
+<WritingAgtNum>0657529 </WritingAgtNum>
+<PaidAgtNum>0824851 </PaidAgtNum>
+<CommType>Renewal Override </CommType>
+<SplitPct>100</SplitPct>
+<RecID>14249687</RecID>
+<TransDate>2026-02-23T06:00:00-08:00</TransDate>
+<Filename>GLD_1206_20260225-181520.XML </Filename>
+<InsuredName>MICHAEL BONI </InsuredName>
+<EffDate>2018-03-14T06:00:00-07:00</EffDate>
+<PaidToDate>2026-03-14T06:00:00-07:00</PaidToDate>
+<mode>M</mode>
+</Table>
+</NewDataSet>
+</diffgr:diffgram>

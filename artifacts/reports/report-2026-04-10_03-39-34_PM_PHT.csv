@@ -1,0 +1,6 @@
+time,module,step,status,message
+2026-04-10 15:39:34 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-10 15:40:04 PHT,https://purdue.ltcrplus.com/,Navigate through Family Care Concierge Benefits,FAIL,"page.waitForEvent: Test timeout of 30000ms exceeded.
+=========================== logs ===========================
+waiting for event ""popup""
+============================================================"

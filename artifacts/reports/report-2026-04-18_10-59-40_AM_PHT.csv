@@ -1,0 +1,34 @@
+time,module,step,status,message
+2026-04-18 10:59:41 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 11:00:00 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-18 11:00:18 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple carriers - shop,PASS,PASS
+2026-04-18 11:00:22 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple Product Types -,PASS,PASS
+2026-04-18 11:00:25 PHT,https://ucdaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-18 11:00:28 PHT,https://ucdaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-18 11:00:30 PHT,https://ucdaa.ltcrplus.com/,Navigate through Lifetime Advocacy - Support,PASS,PASS
+2026-04-18 11:00:33 PHT,https://ucdaa.ltcrplus.com/,Navigate through LTC Funding Research,PASS,PASS
+2026-04-18 11:00:35 PHT,https://ucdaa.ltcrplus.com/,Navigate through Advice & Counseling,PASS,PASS
+2026-04-18 11:00:37 PHT,https://ucdaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:00:37 PHT,https://ucdaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:00:39 PHT,https://ucdaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-18 11:00:42 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-18 11:00:45 PHT,https://ucdaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-18 11:00:47 PHT,https://ucdaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-18 11:00:50 PHT,https://ucdaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-18 11:00:52 PHT,https://ucdaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-18 11:01:01 PHT,https://ucd.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-18 11:01:03 PHT,https://ucd.ltcrplus.com/,Navigate through Multiple carriers - shop,PASS,PASS
+2026-04-18 11:01:05 PHT,https://ucd.ltcrplus.com/,Navigate through Multiple Product Types -,PASS,PASS
+2026-04-18 11:01:08 PHT,https://ucd.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-18 11:01:10 PHT,https://ucd.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-18 11:01:12 PHT,https://ucd.ltcrplus.com/,Navigate through Lifetime Advocacy - Support,PASS,PASS
+2026-04-18 11:01:15 PHT,https://ucd.ltcrplus.com/,Navigate through LTC Funding Research,PASS,PASS
+2026-04-18 11:01:17 PHT,https://ucd.ltcrplus.com/,Navigate through Advice & Counseling,PASS,PASS
+2026-04-18 11:01:20 PHT,https://ucd.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:01:20 PHT,https://ucd.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:01:21 PHT,https://ucd.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-18 11:01:25 PHT,https://ucd.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-18 11:01:27 PHT,https://ucd.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-18 11:01:30 PHT,https://ucd.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-18 11:01:33 PHT,https://ucd.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-18 11:01:35 PHT,https://ucd.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS

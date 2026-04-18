@@ -1,0 +1,701 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Automation Report - 2026-04-18_01-04-16_PM_PHT</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --line: #e8edf5;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --pass-bg: #e8f7ee;
+      --pass-text: #0f7a36;
+      --fail-bg: #fdecec;
+      --fail-text: #b42318;
+      --info-bg: #ebf4ff;
+      --info-text: #175cd3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .header {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+    }
+    .title { margin: 0 0 8px; font-size: 24px; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .card h3 { margin: 0; font-size: 12px; color: var(--muted); font-weight: 600; }
+    .card p { margin: 8px 0 0; font-size: 24px; font-weight: 700; }
+    .card-actions {
+      margin-top: 10px;
+    }
+    .card-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .card-btn:hover { background: #f7f9ff; }
+    .card-btn[disabled] {
+      cursor: not-allowed;
+      color: var(--muted);
+      background: #f8fafc;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+    .fail-panel {
+      display: none;
+    }
+    .fail-panel.show {
+      display: block;
+    }
+    .fail-list {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .fail-list li {
+      margin: 6px 0;
+      font-size: 13px;
+    }
+    .panel h2 { margin: 8px 8px 12px; font-size: 16px; }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0 8px 10px;
+    }
+    .input, .select {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+      background: #fff;
+    }
+    .table-wrap { overflow: auto; border-radius: 10px; }
+    table {
+      border-collapse: separate;
+      border-spacing: 0;
+      width: 100%;
+      min-width: 850px;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 12px;
+      vertical-align: top;
+      background: #fff;
+    }
+    #detailsTable td:nth-child(6) {
+      white-space: normal;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: #4b5563;
+      cursor: pointer;
+      user-select: none;
+    }
+    th:hover { background: #f9fbff; }
+    .status-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .status-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .status-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .status-info { background: var(--info-bg); color: var(--info-text); }
+    .entry-kind {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .entry-kind-validation { background: #fff4d6; color: #8a5a00; }
+    .entry-kind-standard { background: #f2f4f7; color: #475467; }
+    .url-link {
+      color: #3f5bd8;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .url-link:hover { text-decoration: underline; }
+    .url-link-icon { font-size: 12px; line-height: 1; }
+    .na-text { color: var(--muted); font-weight: 600; }
+    .actions-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .action-chip {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .action-chip-pass { background: var(--pass-bg); color: var(--pass-text); }
+    .action-chip-fail { background: var(--fail-bg); color: var(--fail-text); }
+    .action-chip-na { background: #f2f4f7; color: #475467; }
+    .view-actions-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #3f5bd8;
+      border-radius: 8px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .view-actions-btn:hover { background: #f7f9ff; }
+    .hint { color: var(--muted); font-size: 12px; padding: 8px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">Automation Report</h1>
+      <div class="meta">Run ID: 2026-04-18_01-04-16_PM_PHT (PHT)</div>
+      <div class="meta">Generated: Apr 18, 2026, 01:10:18 PM (PHT)</div>
+      <div class="meta"><b>Total Duration:</b> 6m 0s</div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><h3>Total Steps</h3><p>41</p></div>
+      <div class="card"><h3>PASS</h3><p>40</p></div>
+      <div class="card">
+        <h3>FAIL</h3>
+        <p>0</p>
+        <div class="card-actions">
+          <button id="viewFailModulesBtn" class="card-btn" type="button" disabled>View Failed Modules</button>
+        </div>
+      </div>
+      <div class="card"><h3>INFO</h3><p>1</p></div>
+      <div class="card"><h3>Modules</h3><p>3</p></div>
+    </div>
+
+    <div id="failedModulesPanel" class="panel fail-panel">
+      <h2>Failed Modules</h2>
+      <div class="hint">Modules currently marked with FAIL status.</div>
+      <ul class="fail-list"><li>No failed modules.</li></ul>
+    </div>
+
+    <div class="panel">
+      <h2>Module Summary</h2>
+      <div class="hint">Click column headers to sort.</div>
+      <div class="table-wrap">
+        <table data-sortable>
+          <thead><tr><th>Module</th><th>URL</th><th>Actions Summary</th><th>Actions</th><th>Status</th></tr></thead>
+          <tbody><tr>
+          <td>Check if Request for Complimentary Evaluation section is present</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-na" title="Check Partner pages if Login is present not detected in logged steps.">Check Partner pages if Login is present: N/A</span><span class="action-chip action-chip-na" title="Partner pages checks not detected in logged steps.">Partner pages checks: N/A</span><span class="action-chip action-chip-na" title="Check for Login Button not detected in logged steps.">Check for Login Button: N/A</span><span class="action-chip action-chip-na" title="Click Login link and verify URL not detected in logged steps.">Click Login link and verify URL: N/A</span><span class="action-chip action-chip-na" title="Navigate through Advice and Counseling not detected in logged steps.">Navigate through Advice and Counseling: N/A</span><span class="action-chip action-chip-na" title="Navigate through Care Navigation not detected in logged steps.">Navigate through Care Navigation: N/A</span><span class="action-chip action-chip-na" title="Navigate through Claims Assistance not detected in logged steps.">Navigate through Claims Assistance: N/A</span><span class="action-chip action-chip-na" title="Navigate through Maximize Benefits not detected in logged steps.">Navigate through Maximize Benefits: N/A</span><span class="action-chip action-chip-na" title="Navigate through Online Legal Benefits not detected in logged steps.">Navigate through Online Legal Benefits: N/A</span><span class="action-chip action-chip-na" title="Navigate through Contact Us not detected in logged steps.">Navigate through Contact Us: N/A</span><span class="action-chip action-chip-na" title="Navigate through Login Button not detected in logged steps.">Navigate through Login Button: N/A</span><span class="action-chip action-chip-na" title="Navigate to Care Discounts and check for Complimentary Evaluation button not detected in logged steps.">Navigate to Care Discounts and check for Complimentary Evaluation button: N/A</span><span class="action-chip action-chip-na" title="Check for Request for Complimentary Evaluation button not detected in logged steps.">Check for Request for Complimentary Evaluation button: N/A</span><span class="action-chip action-chip-na" title="Click link and verify URL not detected in logged steps.">Click link and verify URL: N/A</span><span class="action-chip action-chip-na" title="Check all links on the page not detected in logged steps.">Check all links on the page: N/A</span><span class="action-chip action-chip-na" title="Navigate through Family Care Concierge Benefits not detected in logged steps.">Navigate through Family Care Concierge Benefits: N/A</span><span class="action-chip action-chip-na" title="Navigate through Multiple Carriers not detected in logged steps.">Navigate through Multiple Carriers: N/A</span><span class="action-chip action-chip-na" title="Navigate through Multiple Product not detected in logged steps.">Navigate through Multiple Product: N/A</span><span class="action-chip action-chip-na" title="Navigate through Exclusive Group Discounts not detected in logged steps.">Navigate through Exclusive Group Discounts: N/A</span><span class="action-chip action-chip-na" title="Navigate through Underwriting not detected in logged steps.">Navigate through Underwriting: N/A</span><span class="action-chip action-chip-na" title="Navigate through Lifetime Advocacy - Support not detected in logged steps.">Navigate through Lifetime Advocacy - Support: N/A</span><span class="action-chip action-chip-na" title="Navigate through LTC Funding Research not detected in logged steps.">Navigate through LTC Funding Research: N/A</span><span class="action-chip action-chip-na" title="Check for Contact Us link not detected in logged steps.">Check for Contact Us link: N/A</span><span class="action-chip action-chip-na" title="Navigate through Members / Consumers not detected in logged steps.">Navigate through Members / Consumers: N/A</span><span class="action-chip action-chip-na" title="Navigate through Agents / Advisers not detected in logged steps.">Navigate through Agents / Advisers: N/A</span><span class="action-chip action-chip-na" title="Navigate through Affinity Groups / Financial Institutions not detected in logged steps.">Navigate through Affinity Groups / Financial Institutions: N/A</span><span class="action-chip action-chip-na" title="Navigate through NEW LOGIN/SIGNUP Button not detected in logged steps.">Navigate through NEW LOGIN/SIGNUP Button: N/A</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="Check if Request for Complimentary Evaluation section is present">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-pass" title="Navigate through Family Care Concierge Benefits executed without failed step logs.">Navigate through Family Care Concierge Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Multiple carriers - shop executed without failed step logs.">Navigate through Multiple carriers - shop: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Multiple Product Types - executed without failed step logs.">Navigate through Multiple Product Types -: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Exclusive Group Discounts executed without failed step logs.">Navigate through Exclusive Group Discounts: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Underwriting executed without failed step logs.">Navigate through Underwriting: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Lifetime Advocacy - Support executed without failed step logs.">Navigate through Lifetime Advocacy - Support: PASS</span><span class="action-chip action-chip-pass" title="Navigate through LTC Funding Research executed without failed step logs.">Navigate through LTC Funding Research: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Advice &amp; Counseling executed without failed step logs.">Navigate through Advice &amp; Counseling: PASS</span><span class="action-chip action-chip-pass" title="Navigate to Care Discounts and check for Complimentary Evaluation button executed without failed step logs.">Navigate to Care Discounts and check for Complimentary Evaluation button: PASS</span><span class="action-chip action-chip-pass" title="Check for Request for Complimentary Evaluation button executed without failed step logs.">Check for Request for Complimentary Evaluation button: PASS</span><span class="action-chip action-chip-pass" title="Click link and verify URL executed without failed step logs.">Click link and verify URL: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Care Navigation executed without failed step logs.">Navigate through Care Navigation: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Claims Assistance executed without failed step logs.">Navigate through Claims Assistance: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Maximize Benefits executed without failed step logs.">Navigate through Maximize Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Online Legal Benefits executed without failed step logs.">Navigate through Online Legal Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Legal Benefit Access Button executed without failed step logs.">Navigate through Legal Benefit Access Button: PASS</span><span class="action-chip action-chip-pass" title="Navigate through NEW LOGIN/SIGNUP Button executed without failed step logs.">Navigate through NEW LOGIN/SIGNUP Button: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Members / Consumers executed without failed step logs.">Navigate through Members / Consumers: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Agents/Advisors executed without failed step logs.">Navigate through Agents/Advisors: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Affinity Groups/Financial Institutions executed without failed step logs.">Navigate through Affinity Groups/Financial Institutions: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://ucd.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr>
+<tr>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td><span class="na-text">N/A</span></td>
+          <td>
+            <div class="actions-chips"><span class="action-chip action-chip-pass" title="Navigate through Family Care Concierge Benefits executed without failed step logs.">Navigate through Family Care Concierge Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Multiple carriers - shop executed without failed step logs.">Navigate through Multiple carriers - shop: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Multiple Product Types - executed without failed step logs.">Navigate through Multiple Product Types -: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Exclusive Group Discounts executed without failed step logs.">Navigate through Exclusive Group Discounts: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Underwriting executed without failed step logs.">Navigate through Underwriting: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Lifetime Advocacy - Support executed without failed step logs.">Navigate through Lifetime Advocacy - Support: PASS</span><span class="action-chip action-chip-pass" title="Navigate through LTC Funding Research executed without failed step logs.">Navigate through LTC Funding Research: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Advice &amp; Counseling executed without failed step logs.">Navigate through Advice &amp; Counseling: PASS</span><span class="action-chip action-chip-pass" title="Navigate to Care Discounts and check for Complimentary Evaluation button executed without failed step logs.">Navigate to Care Discounts and check for Complimentary Evaluation button: PASS</span><span class="action-chip action-chip-pass" title="Check for Request for Complimentary Evaluation button executed without failed step logs.">Check for Request for Complimentary Evaluation button: PASS</span><span class="action-chip action-chip-pass" title="Click link and verify URL executed without failed step logs.">Click link and verify URL: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Care Navigation executed without failed step logs.">Navigate through Care Navigation: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Claims Assistance executed without failed step logs.">Navigate through Claims Assistance: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Maximize Benefits executed without failed step logs.">Navigate through Maximize Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Online Legal Benefits executed without failed step logs.">Navigate through Online Legal Benefits: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Legal Benefit Access Button executed without failed step logs.">Navigate through Legal Benefit Access Button: PASS</span><span class="action-chip action-chip-pass" title="Navigate through NEW LOGIN/SIGNUP Button executed without failed step logs.">Navigate through NEW LOGIN/SIGNUP Button: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Members / Consumers executed without failed step logs.">Navigate through Members / Consumers: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Agents/Advisors executed without failed step logs.">Navigate through Agents/Advisors: PASS</span><span class="action-chip action-chip-pass" title="Navigate through Affinity Groups/Financial Institutions executed without failed step logs.">Navigate through Affinity Groups/Financial Institutions: PASS</span></div>
+          </td>
+          <td><button type="button" class="view-actions-btn" data-module="https://ucdaa.ltcrplus.com/">View</button></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Step Details</h2>
+      <div class="toolbar">
+        <input id="searchInput" class="input" placeholder="Search module/step/message" />
+        <select id="statusFilter" class="select">
+          <option value="">All Statuses</option>
+          <option value="PASS">PASS</option>
+          <option value="FAIL">FAIL</option>
+          <option value="INFO">INFO</option>
+        </select>
+      </div>
+      <div class="hint">Click any header to sort. Use search/filter to narrow rows.</div>
+      <div class="table-wrap">
+        <table id="detailsTable" data-sortable>
+          <thead><tr><th>Time (PHT)</th><th>Module</th><th>Step</th><th>Indicator</th><th>Status</th><th>Message</th></tr></thead>
+          <tbody><tr>
+          <td>Apr 18, 2026, 01:04:17 PM (PHT)</td>
+          <td>Check if Request for Complimentary Evaluation section is present</td>
+          <td> </td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-info">INFO</span></td>
+          <td>START</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:04:33 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Family Care Concierge Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:04:45 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Multiple carriers - shop</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:04:57 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Multiple Product Types -</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:05:10 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Exclusive Group Discounts</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:05:22 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Underwriting</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:05:35 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Lifetime Advocacy - Support</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:05:47 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through LTC Funding Research</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:00 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Advice &amp; Counseling</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:02 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate to Care Discounts and check for Complimentary Evaluation button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:02 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Check for Request for Complimentary Evaluation button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:03 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Click link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:16 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Care Navigation</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:29 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Claims Assistance</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:41 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Maximize Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:06:54 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Online Legal Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:06 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Legal Benefit Access Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:09 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through NEW LOGIN/SIGNUP Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:11 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Members / Consumers</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:13 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Agents/Advisors</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:16 PM (PHT)</td>
+          <td>https://ucdaa.ltcrplus.com/</td>
+          <td>Navigate through Affinity Groups/Financial Institutions</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:32 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Family Care Concierge Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:44 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Multiple carriers - shop</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:07:57 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Multiple Product Types -</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:08:09 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Exclusive Group Discounts</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:08:22 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Underwriting</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:08:34 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Lifetime Advocacy - Support</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:08:47 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through LTC Funding Research</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:01 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Advice &amp; Counseling</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:03 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate to Care Discounts and check for Complimentary Evaluation button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:03 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Check for Request for Complimentary Evaluation button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:04 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Click link and verify URL</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:17 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Care Navigation</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:30 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Claims Assistance</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:42 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Maximize Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:09:56 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Online Legal Benefits</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:10:08 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Legal Benefit Access Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:10:10 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through NEW LOGIN/SIGNUP Button</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:10:13 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Members / Consumers</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:10:15 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Agents/Advisors</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr>
+<tr>
+          <td>Apr 18, 2026, 01:10:18 PM (PHT)</td>
+          <td>https://ucd.ltcrplus.com/</td>
+          <td>Navigate through Affinity Groups/Financial Institutions</td>
+          <td><span class="entry-kind entry-kind-standard">Standard</span></td>
+          <td><span class="status-chip status-pass">PASS</span></td>
+          <td>PASS</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      function getCellValue(row, colIndex) {
+        return (row.children[colIndex]?.innerText || '').trim();
+      }
+
+      function makeSortable(table) {
+        const headers = table.querySelectorAll('thead th');
+        const tbody = table.querySelector('tbody');
+        headers.forEach((header, index) => {
+          let asc = true;
+          header.addEventListener('click', () => {
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort((a, b) => {
+              const va = getCellValue(a, index);
+              const vb = getCellValue(b, index);
+              return asc ? va.localeCompare(vb, undefined, { numeric: true, sensitivity: 'base' }) : vb.localeCompare(va, undefined, { numeric: true, sensitivity: 'base' });
+            });
+            asc = !asc;
+            rows.forEach((row) => tbody.appendChild(row));
+          });
+        });
+      }
+
+      document.querySelectorAll('table[data-sortable]').forEach(makeSortable);
+
+      const searchInput = document.getElementById('searchInput');
+      const statusFilter = document.getElementById('statusFilter');
+      const detailsTable = document.getElementById('detailsTable');
+      const rows = Array.from(detailsTable.querySelectorAll('tbody tr'));
+      const summaryPanel = document.querySelector('.panel');
+      const viewFailModulesBtn = document.getElementById('viewFailModulesBtn');
+      const failedModulesPanel = document.getElementById('failedModulesPanel');
+
+      function applyFilters() {
+        const query = (searchInput.value || '').toLowerCase();
+        const status = statusFilter.value;
+
+        rows.forEach((row) => {
+          const text = row.innerText.toLowerCase();
+          const rowStatus = getCellValue(row, 4).toUpperCase();
+          const matchesSearch = !query || text.includes(query);
+          const matchesStatus = !status || rowStatus === status;
+          row.style.display = matchesSearch && matchesStatus ? '' : 'none';
+        });
+      }
+
+      searchInput.addEventListener('input', applyFilters);
+      statusFilter.addEventListener('change', applyFilters);
+
+      if (viewFailModulesBtn && failedModulesPanel) {
+        viewFailModulesBtn.addEventListener('click', () => {
+          statusFilter.value = 'FAIL';
+          applyFilters();
+
+          const isShown = failedModulesPanel.classList.contains('show');
+          if (isShown) {
+            failedModulesPanel.classList.remove('show');
+          } else {
+            failedModulesPanel.classList.add('show');
+          }
+
+          const detailsPanel = detailsTable.closest('.panel');
+          if (detailsPanel) {
+            detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        });
+      }
+
+      document.querySelectorAll('.view-actions-btn').forEach((button) => {
+        button.addEventListener('click', () => {
+          const moduleName = button.getAttribute('data-module') || '';
+          searchInput.value = moduleName;
+          statusFilter.value = '';
+          applyFilters();
+          if (summaryPanel) {
+            const detailsPanels = document.querySelectorAll('.panel');
+            const detailsPanel = detailsPanels[1] || null;
+            if (detailsPanel) {
+              detailsPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

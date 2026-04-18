@@ -1,0 +1,20 @@
+time,module,step,status,message
+2026-04-18 11:53:14 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 11:53:20 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-18 11:53:22 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple carriers - shop,PASS,PASS
+2026-04-18 11:53:24 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple Product Types -,PASS,PASS
+2026-04-18 11:53:26 PHT,https://ucdaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-18 11:53:29 PHT,https://ucdaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-18 11:53:31 PHT,https://ucdaa.ltcrplus.com/,Navigate through Lifetime Advocacy - Support,PASS,PASS
+2026-04-18 11:53:33 PHT,https://ucdaa.ltcrplus.com/,Navigate through LTC Funding Research,PASS,PASS
+2026-04-18 11:53:36 PHT,https://ucdaa.ltcrplus.com/,Navigate through Advice & Counseling,PASS,PASS
+2026-04-18 11:53:38 PHT,https://ucdaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:53:38 PHT,https://ucdaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:53:39 PHT,https://ucdaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-18 11:53:42 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-18 11:53:45 PHT,https://ucdaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-18 11:53:47 PHT,https://ucdaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-18 11:53:49 PHT,https://ucdaa.ltcrplus.com/,Navigate through Online Legal Benefits,FAIL,"page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+[2m  - navigating to ""https://ucdaa.ltcrplus.com/"", waiting until ""domcontentloaded""[22m
+"

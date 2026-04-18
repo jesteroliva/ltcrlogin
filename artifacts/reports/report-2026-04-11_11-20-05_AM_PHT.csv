@@ -1,0 +1,1002 @@
+time,module,step,status,message
+2026-04-11 11:20:05 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-11 11:20:10 PHT,https://iuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:20:11 PHT,https://iuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:20:14 PHT,https://iuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:20:16 PHT,https://iuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:20:18 PHT,https://iuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:20:21 PHT,https://iuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:20:25 PHT,https://iuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:20:27 PHT,https://iuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:20:29 PHT,https://iuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:20:31 PHT,https://iuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:20:33 PHT,https://iuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:20:36 PHT,https://iuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:20:38 PHT,https://iuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:20:40 PHT,https://iuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:20:43 PHT,https://iuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:20:45 PHT,https://iuaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:20:47 PHT,https://iuaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:20:49 PHT,https://iuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:20:49 PHT,https://iuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:20:50 PHT,https://iuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:20:56 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:20:58 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:21:00 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:21:02 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:21:05 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:21:07 PHT,https://gvsuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:21:10 PHT,https://gvsuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:21:12 PHT,https://gvsuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:21:14 PHT,https://gvsuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:21:16 PHT,https://gvsuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:21:19 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:21:21 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:21:23 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:21:26 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:21:28 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:21:30 PHT,https://gvsuaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:21:32 PHT,https://gvsuaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:21:34 PHT,https://gvsuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:21:34 PHT,https://gvsuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:21:36 PHT,https://gvsuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:21:42 PHT,https://gtech.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:21:44 PHT,https://gtech.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:21:46 PHT,https://gtech.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:21:49 PHT,https://gtech.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:21:51 PHT,https://gtech.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:21:53 PHT,https://gtech.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:21:56 PHT,https://gtech.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:21:59 PHT,https://gtech.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:22:01 PHT,https://gtech.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:22:03 PHT,https://gtech.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:22:05 PHT,https://gtech.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:22:08 PHT,https://gtech.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:22:10 PHT,https://gtech.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:22:12 PHT,https://gtech.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:22:15 PHT,https://gtech.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:22:16 PHT,https://gtech.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:22:18 PHT,https://gtech.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:22:20 PHT,https://gtech.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:22:20 PHT,https://gtech.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:22:22 PHT,https://gtech.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:22:28 PHT,https://fmc.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:22:30 PHT,https://fmc.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:22:32 PHT,https://fmc.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:22:34 PHT,https://fmc.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:22:36 PHT,https://fmc.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:22:39 PHT,https://fmc.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:22:42 PHT,https://fmc.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:22:44 PHT,https://fmc.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:22:47 PHT,https://fmc.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:22:49 PHT,https://fmc.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:22:51 PHT,https://fmc.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:22:54 PHT,https://fmc.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:22:56 PHT,https://fmc.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:22:58 PHT,https://fmc.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:23:01 PHT,https://fmc.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:23:03 PHT,https://fmc.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:23:05 PHT,https://fmc.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:23:07 PHT,https://fmc.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:23:07 PHT,https://fmc.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:23:09 PHT,https://fmc.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:23:15 PHT,https://fltech.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:23:17 PHT,https://fltech.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:23:19 PHT,https://fltech.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:23:21 PHT,https://fltech.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:23:24 PHT,https://fltech.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:23:26 PHT,https://fltech.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:23:30 PHT,https://fltech.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:23:32 PHT,https://fltech.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:23:34 PHT,https://fltech.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:23:36 PHT,https://fltech.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:23:39 PHT,https://fltech.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:23:41 PHT,https://fltech.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:23:44 PHT,https://fltech.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:23:46 PHT,https://fltech.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:23:49 PHT,https://fltech.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:23:51 PHT,https://fltech.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:23:53 PHT,https://fltech.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:23:55 PHT,https://fltech.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:23:55 PHT,https://fltech.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:23:57 PHT,https://fltech.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:24:03 PHT,https://fiuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:24:05 PHT,https://fiuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:24:07 PHT,https://fiuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:24:09 PHT,https://fiuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:24:12 PHT,https://fiuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:24:14 PHT,https://fiuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:24:18 PHT,https://fiuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:24:20 PHT,https://fiuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:24:23 PHT,https://fiuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:24:25 PHT,https://fiuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:24:27 PHT,https://fiuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:24:30 PHT,https://fiuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:24:32 PHT,https://fiuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:24:35 PHT,https://fiuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:24:37 PHT,https://fiuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:24:39 PHT,https://fiuaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:24:41 PHT,https://fiuaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:24:43 PHT,https://fiuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:24:43 PHT,https://fiuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:24:46 PHT,https://fiuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:24:51 PHT,https://ewuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:24:53 PHT,https://ewuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:24:55 PHT,https://ewuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:24:58 PHT,https://ewuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:25:01 PHT,https://ewuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:25:03 PHT,https://ewuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:25:07 PHT,https://ewuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:25:09 PHT,https://ewuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:25:11 PHT,https://ewuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:25:14 PHT,https://ewuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:25:16 PHT,https://ewuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:25:19 PHT,https://ewuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:25:21 PHT,https://ewuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:25:23 PHT,https://ewuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:25:26 PHT,https://ewuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:25:28 PHT,https://ewuaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:25:30 PHT,https://ewuaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:25:32 PHT,https://ewuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:25:32 PHT,https://ewuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:25:35 PHT,https://ewuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:25:44 PHT,https://euaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:25:45 PHT,https://euaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:25:47 PHT,https://euaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:25:50 PHT,https://euaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:25:52 PHT,https://euaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:25:55 PHT,https://euaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:25:58 PHT,https://euaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:26:01 PHT,https://euaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:26:03 PHT,https://euaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:26:05 PHT,https://euaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:26:08 PHT,https://euaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:26:10 PHT,https://euaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:26:13 PHT,https://euaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:26:15 PHT,https://euaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:26:17 PHT,https://euaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:26:19 PHT,https://euaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:26:22 PHT,https://euaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:26:24 PHT,https://euaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:26:24 PHT,https://euaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:26:26 PHT,https://euaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:26:35 PHT,https://eoraa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:26:37 PHT,https://eoraa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:26:39 PHT,https://eoraa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:26:42 PHT,https://eoraa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:26:44 PHT,https://eoraa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:26:46 PHT,https://eoraa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:26:50 PHT,https://eoraa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:26:52 PHT,https://eoraa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:26:55 PHT,https://eoraa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:26:57 PHT,https://eoraa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:26:59 PHT,https://eoraa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:27:02 PHT,https://eoraa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:27:04 PHT,https://eoraa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:27:06 PHT,https://eoraa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:27:09 PHT,https://eoraa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:27:11 PHT,https://eoraa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:27:13 PHT,https://eoraa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:27:15 PHT,https://eoraa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:27:15 PHT,https://eoraa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:27:17 PHT,https://eoraa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:27:24 PHT,https://enmu.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:27:26 PHT,https://enmu.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:27:28 PHT,https://enmu.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:27:30 PHT,https://enmu.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:27:33 PHT,https://enmu.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:27:35 PHT,https://enmu.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:27:39 PHT,https://enmu.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:27:41 PHT,https://enmu.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:27:43 PHT,https://enmu.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:27:46 PHT,https://enmu.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:27:48 PHT,https://enmu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:27:50 PHT,https://enmu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:27:53 PHT,https://enmu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:27:55 PHT,https://enmu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:27:57 PHT,https://enmu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:27:59 PHT,https://enmu.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:28:01 PHT,https://enmu.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:28:04 PHT,https://enmu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:28:04 PHT,https://enmu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:28:06 PHT,https://enmu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:28:13 PHT,https://emory.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:28:15 PHT,https://emory.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:28:17 PHT,https://emory.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:28:20 PHT,https://emory.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:28:22 PHT,https://emory.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:28:24 PHT,https://emory.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:28:28 PHT,https://emory.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:28:31 PHT,https://emory.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:28:33 PHT,https://emory.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:28:35 PHT,https://emory.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:28:38 PHT,https://emory.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:28:40 PHT,https://emory.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:28:43 PHT,https://emory.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:28:45 PHT,https://emory.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:28:47 PHT,https://emory.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:28:49 PHT,https://emory.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:28:52 PHT,https://emory.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:28:54 PHT,https://emory.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:28:54 PHT,https://emory.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:28:57 PHT,https://emory.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:29:03 PHT,https://duquesne.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:29:05 PHT,https://duquesne.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:29:08 PHT,https://duquesne.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:29:10 PHT,https://duquesne.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:29:12 PHT,https://duquesne.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:29:14 PHT,https://duquesne.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:29:18 PHT,https://duquesne.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:29:21 PHT,https://duquesne.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:29:23 PHT,https://duquesne.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:29:26 PHT,https://duquesne.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:29:28 PHT,https://duquesne.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:29:31 PHT,https://duquesne.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:29:33 PHT,https://duquesne.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:29:35 PHT,https://duquesne.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:29:38 PHT,https://duquesne.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:29:39 PHT,https://duquesne.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:29:42 PHT,https://duquesne.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:29:44 PHT,https://duquesne.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:29:44 PHT,https://duquesne.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:29:46 PHT,https://duquesne.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:29:52 PHT,https://cwru.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:29:54 PHT,https://cwru.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:29:56 PHT,https://cwru.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:29:59 PHT,https://cwru.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:30:01 PHT,https://cwru.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:30:04 PHT,https://cwru.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:30:08 PHT,https://cwru.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:30:10 PHT,https://cwru.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:30:13 PHT,https://cwru.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:30:15 PHT,https://cwru.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:30:19 PHT,https://cwru.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:30:21 PHT,https://cwru.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:30:24 PHT,https://cwru.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:30:26 PHT,https://cwru.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:30:29 PHT,https://cwru.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:30:31 PHT,https://cwru.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:30:33 PHT,https://cwru.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:30:35 PHT,https://cwru.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:30:35 PHT,https://cwru.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:30:38 PHT,https://cwru.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:30:44 PHT,https://cusea.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:30:46 PHT,https://cusea.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:30:48 PHT,https://cusea.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:30:51 PHT,https://cusea.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:30:53 PHT,https://cusea.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:30:55 PHT,https://cusea.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:30:59 PHT,https://cusea.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:31:01 PHT,https://cusea.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:31:04 PHT,https://cusea.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:31:06 PHT,https://cusea.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:31:09 PHT,https://cusea.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:31:11 PHT,https://cusea.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:31:14 PHT,https://cusea.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:31:16 PHT,https://cusea.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:31:19 PHT,https://cusea.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:31:21 PHT,https://cusea.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:31:23 PHT,https://cusea.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:31:26 PHT,https://cusea.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:31:26 PHT,https://cusea.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:31:29 PHT,https://cusea.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:31:35 PHT,https://csulb.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:31:37 PHT,https://csulb.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:31:40 PHT,https://csulb.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:31:42 PHT,https://csulb.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:31:44 PHT,https://csulb.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:31:47 PHT,https://csulb.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:31:51 PHT,https://csulb.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:31:53 PHT,https://csulb.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:31:56 PHT,https://csulb.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:31:58 PHT,https://csulb.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:32:01 PHT,https://csulb.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:32:03 PHT,https://csulb.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:32:06 PHT,https://csulb.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:32:08 PHT,https://csulb.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:32:10 PHT,https://csulb.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:32:12 PHT,https://csulb.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:32:15 PHT,https://csulb.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:32:17 PHT,https://csulb.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:32:17 PHT,https://csulb.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:32:20 PHT,https://csulb.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:32:28 PHT,https://csub.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:32:30 PHT,https://csub.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:32:32 PHT,https://csub.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:32:35 PHT,https://csub.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:32:37 PHT,https://csub.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:32:39 PHT,https://csub.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:32:43 PHT,https://csub.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:32:45 PHT,https://csub.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:32:48 PHT,https://csub.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:32:50 PHT,https://csub.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:32:54 PHT,https://csub.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:32:58 PHT,https://csub.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:33:00 PHT,https://csub.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:33:04 PHT,https://csub.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:33:08 PHT,https://csub.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:33:12 PHT,https://csub.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:33:15 PHT,https://csub.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:33:19 PHT,https://csub.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:33:19 PHT,https://csub.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:33:25 PHT,https://csub.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:33:34 PHT,https://csda.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:33:37 PHT,https://csda.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:33:41 PHT,https://csda.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:33:45 PHT,https://csda.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:33:49 PHT,https://csda.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:33:53 PHT,https://csda.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:34:00 PHT,https://csda.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:34:04 PHT,https://csda.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:34:09 PHT,https://csda.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:34:11 PHT,https://csda.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:34:13 PHT,https://csda.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:34:18 PHT,https://csda.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:34:22 PHT,https://csda.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:34:26 PHT,https://csda.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:34:30 PHT,https://csda.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:34:33 PHT,https://csda.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:34:37 PHT,https://csda.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:34:40 PHT,https://csda.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:34:41 PHT,https://csda.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:34:47 PHT,https://csda.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:34:55 PHT,https://cma.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:34:59 PHT,https://cma.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:35:02 PHT,https://cma.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:35:06 PHT,https://cma.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:35:10 PHT,https://cma.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:35:14 PHT,https://cma.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:35:22 PHT,https://cma.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:35:24 PHT,https://cma.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:35:27 PHT,https://cma.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:35:29 PHT,https://cma.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:35:32 PHT,https://cma.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:35:36 PHT,https://cma.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:35:40 PHT,https://cma.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:35:44 PHT,https://cma.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:35:48 PHT,https://cma.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:35:51 PHT,https://cma.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:35:55 PHT,https://cma.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:35:59 PHT,https://cma.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:35:59 PHT,https://cma.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:36:05 PHT,https://cma.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:36:14 PHT,https://cinci.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:36:17 PHT,https://cinci.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:36:20 PHT,https://cinci.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:36:27 PHT,https://cinci.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:36:32 PHT,https://cinci.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:36:36 PHT,https://cinci.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:36:43 PHT,https://cinci.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:36:47 PHT,https://cinci.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:36:50 PHT,https://cinci.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:36:52 PHT,https://cinci.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:36:54 PHT,https://cinci.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:36:57 PHT,https://cinci.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:36:59 PHT,https://cinci.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:37:02 PHT,https://cinci.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:37:04 PHT,https://cinci.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:37:06 PHT,https://cinci.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:37:08 PHT,https://cinci.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:37:10 PHT,https://cinci.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:37:10 PHT,https://cinci.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:37:12 PHT,https://cinci.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:37:22 PHT,https://cenpen.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:37:25 PHT,https://cenpen.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:37:28 PHT,https://cenpen.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:37:33 PHT,https://cenpen.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:37:37 PHT,https://cenpen.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:37:41 PHT,https://cenpen.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:37:48 PHT,https://cenpen.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:37:52 PHT,https://cenpen.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:37:55 PHT,https://cenpen.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:37:59 PHT,https://cenpen.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:38:02 PHT,https://cenpen.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:38:06 PHT,https://cenpen.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:38:10 PHT,https://cenpen.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:38:14 PHT,https://cenpen.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:38:18 PHT,https://cenpen.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:38:22 PHT,https://cenpen.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:38:25 PHT,https://cenpen.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:38:29 PHT,https://cenpen.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:38:29 PHT,https://cenpen.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:38:36 PHT,https://cenpen.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:38:44 PHT,https://ccc.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:38:47 PHT,https://ccc.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:38:50 PHT,https://ccc.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:38:54 PHT,https://ccc.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:38:58 PHT,https://ccc.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:39:02 PHT,https://ccc.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:39:09 PHT,https://ccc.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:39:13 PHT,https://ccc.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:39:16 PHT,https://ccc.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:39:18 PHT,https://ccc.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:39:21 PHT,https://ccc.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:39:23 PHT,https://ccc.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:39:26 PHT,https://ccc.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:39:28 PHT,https://ccc.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:39:31 PHT,https://ccc.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:39:33 PHT,https://ccc.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:39:35 PHT,https://ccc.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:39:37 PHT,https://ccc.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:39:38 PHT,https://ccc.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:39:41 PHT,https://ccc.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:39:49 PHT,https://carnmel.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:39:51 PHT,https://carnmel.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:39:54 PHT,https://carnmel.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:39:56 PHT,https://carnmel.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:39:59 PHT,https://carnmel.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:40:01 PHT,https://carnmel.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:40:05 PHT,https://carnmel.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:40:07 PHT,https://carnmel.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:40:10 PHT,https://carnmel.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:40:12 PHT,https://carnmel.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:40:15 PHT,https://carnmel.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:40:17 PHT,https://carnmel.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:40:20 PHT,https://carnmel.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:40:22 PHT,https://carnmel.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:40:25 PHT,https://carnmel.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:40:26 PHT,https://carnmel.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:40:29 PHT,https://carnmel.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:40:31 PHT,https://carnmel.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:40:31 PHT,https://carnmel.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:40:34 PHT,https://carnmel.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:40:40 PHT,https://bstuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:40:42 PHT,https://bstuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:40:45 PHT,https://bstuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:40:47 PHT,https://bstuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:40:50 PHT,https://bstuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:40:52 PHT,https://bstuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:40:56 PHT,https://bstuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:40:58 PHT,https://bstuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:41:01 PHT,https://bstuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:41:03 PHT,https://bstuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:41:06 PHT,https://bstuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:41:08 PHT,https://bstuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:41:11 PHT,https://bstuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:41:13 PHT,https://bstuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:41:16 PHT,https://bstuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:41:17 PHT,https://bstuaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:41:20 PHT,https://bstuaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:41:22 PHT,https://bstuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:41:23 PHT,https://bstuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:41:25 PHT,https://bstuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:41:32 PHT,https://bradu.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:41:34 PHT,https://bradu.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:41:36 PHT,https://bradu.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:41:39 PHT,https://bradu.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:41:41 PHT,https://bradu.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:41:44 PHT,https://bradu.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:41:47 PHT,https://bradu.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:41:50 PHT,https://bradu.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:41:53 PHT,https://bradu.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:41:55 PHT,https://bradu.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:41:58 PHT,https://bradu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:42:00 PHT,https://bradu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:42:03 PHT,https://bradu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:42:05 PHT,https://bradu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:42:08 PHT,https://bradu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:42:10 PHT,https://bradu.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:42:12 PHT,https://bradu.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:42:15 PHT,https://bradu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:42:15 PHT,https://bradu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:42:18 PHT,https://bradu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:42:24 PHT,https://bcaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:42:26 PHT,https://bcaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:42:28 PHT,https://bcaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:42:31 PHT,https://bcaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:42:33 PHT,https://bcaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:42:35 PHT,https://bcaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:42:39 PHT,https://bcaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:42:42 PHT,https://bcaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:42:44 PHT,https://bcaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:42:47 PHT,https://bcaa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:42:49 PHT,https://bcaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:42:52 PHT,https://bcaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:42:54 PHT,https://bcaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:42:57 PHT,https://bcaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:43:00 PHT,https://bcaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:43:02 PHT,https://bcaa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:43:05 PHT,https://bcaa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:43:07 PHT,https://bcaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:43:08 PHT,https://bcaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:43:10 PHT,https://bcaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:43:17 PHT,https://avs.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:43:19 PHT,https://avs.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:43:21 PHT,https://avs.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:43:24 PHT,https://avs.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:43:26 PHT,https://avs.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:43:28 PHT,https://avs.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:43:32 PHT,https://avs.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:43:35 PHT,https://avs.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:43:37 PHT,https://avs.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:43:40 PHT,https://avs.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:43:43 PHT,https://avs.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:43:45 PHT,https://avs.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:43:48 PHT,https://avs.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:43:50 PHT,https://avs.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:43:53 PHT,https://avs.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:43:55 PHT,https://avs.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:43:58 PHT,https://avs.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:44:00 PHT,https://avs.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:44:00 PHT,https://avs.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:44:03 PHT,https://avs.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:44:08 PHT,https://avmalife.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:44:10 PHT,https://avmalife.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:44:13 PHT,https://avmalife.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:44:15 PHT,https://avmalife.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:44:18 PHT,https://avmalife.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:44:20 PHT,https://avmalife.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:44:24 PHT,https://avmalife.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:44:26 PHT,https://avmalife.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:44:29 PHT,https://avmalife.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:44:32 PHT,https://avmalife.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:44:34 PHT,https://avmalife.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:44:37 PHT,https://avmalife.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:44:40 PHT,https://avmalife.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:44:42 PHT,https://avmalife.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:44:45 PHT,https://avmalife.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:44:47 PHT,https://avmalife.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:44:49 PHT,https://avmalife.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:44:52 PHT,https://avmalife.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:44:52 PHT,https://avmalife.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:44:55 PHT,https://avmalife.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:45:01 PHT,https://aua.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:45:03 PHT,https://aua.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:45:06 PHT,https://aua.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:45:08 PHT,https://aua.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:45:11 PHT,https://aua.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:45:13 PHT,https://aua.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:45:17 PHT,https://aua.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:45:20 PHT,https://aua.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:45:22 PHT,https://aua.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:45:25 PHT,https://aua.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:45:28 PHT,https://aua.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:45:30 PHT,https://aua.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:45:33 PHT,https://aua.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:45:35 PHT,https://aua.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:45:38 PHT,https://aua.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:45:40 PHT,https://aua.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:45:43 PHT,https://aua.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:45:45 PHT,https://aua.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:45:45 PHT,https://aua.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:45:48 PHT,https://aua.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:45:54 PHT,https://ats.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:45:56 PHT,https://ats.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:45:59 PHT,https://ats.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:46:01 PHT,https://ats.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:46:03 PHT,https://ats.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:46:06 PHT,https://ats.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:46:10 PHT,https://ats.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:46:12 PHT,https://ats.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:46:15 PHT,https://ats.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:46:19 PHT,https://ats.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:46:22 PHT,https://ats.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:46:24 PHT,https://ats.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:46:27 PHT,https://ats.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:46:29 PHT,https://ats.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:46:32 PHT,https://ats.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:46:34 PHT,https://ats.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:46:36 PHT,https://ats.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:46:38 PHT,https://ats.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:46:39 PHT,https://ats.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:46:41 PHT,https://ats.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:46:47 PHT,https://ascp.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:46:49 PHT,https://ascp.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:46:52 PHT,https://ascp.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:46:54 PHT,https://ascp.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:46:57 PHT,https://ascp.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:46:59 PHT,https://ascp.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:47:03 PHT,https://ascp.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:47:06 PHT,https://ascp.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:47:08 PHT,https://ascp.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:47:11 PHT,https://ascp.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:47:13 PHT,https://ascp.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:47:16 PHT,https://ascp.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:47:18 PHT,https://ascp.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:47:21 PHT,https://ascp.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:47:24 PHT,https://ascp.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:47:26 PHT,https://ascp.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:47:28 PHT,https://ascp.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:47:31 PHT,https://ascp.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:47:31 PHT,https://ascp.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:47:33 PHT,https://ascp.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:47:40 PHT,https://arkfs.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:47:42 PHT,https://arkfs.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:47:44 PHT,https://arkfs.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:47:47 PHT,https://arkfs.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:47:49 PHT,https://arkfs.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:47:52 PHT,https://arkfs.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:47:55 PHT,https://arkfs.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:47:58 PHT,https://arkfs.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:48:01 PHT,https://arkfs.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:48:03 PHT,https://arkfs.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:48:06 PHT,https://arkfs.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:48:08 PHT,https://arkfs.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:48:11 PHT,https://arkfs.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:48:13 PHT,https://arkfs.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:48:16 PHT,https://arkfs.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:48:18 PHT,https://arkfs.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:48:20 PHT,https://arkfs.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:48:23 PHT,https://arkfs.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:48:23 PHT,https://arkfs.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:48:26 PHT,https://arkfs.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:48:32 PHT,https://aps.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:48:34 PHT,https://aps.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:48:37 PHT,https://aps.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:48:39 PHT,https://aps.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:48:42 PHT,https://aps.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:48:44 PHT,https://aps.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:48:48 PHT,https://aps.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:48:51 PHT,https://aps.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:48:54 PHT,https://aps.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:48:56 PHT,https://aps.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:48:59 PHT,https://aps.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:49:01 PHT,https://aps.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:49:04 PHT,https://aps.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:49:07 PHT,https://aps.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:49:09 PHT,https://aps.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:49:11 PHT,https://aps.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:49:15 PHT,https://aps.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:49:17 PHT,https://aps.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:49:17 PHT,https://aps.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:49:20 PHT,https://aps.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:49:26 PHT,https://aorn.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:49:29 PHT,https://aorn.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:49:31 PHT,https://aorn.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:49:34 PHT,https://aorn.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:49:37 PHT,https://aorn.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:49:39 PHT,https://aorn.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:49:43 PHT,https://aorn.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:49:46 PHT,https://aorn.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:49:48 PHT,https://aorn.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:49:51 PHT,https://aorn.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:49:54 PHT,https://aorn.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:49:56 PHT,https://aorn.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:49:59 PHT,https://aorn.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:50:01 PHT,https://aorn.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:50:04 PHT,https://aorn.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:50:07 PHT,https://aorn.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:50:09 PHT,https://aorn.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:50:11 PHT,https://aorn.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:50:12 PHT,https://aorn.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:50:14 PHT,https://aorn.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:50:22 PHT,https://aft.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:50:24 PHT,https://aft.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:50:27 PHT,https://aft.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:50:29 PHT,https://aft.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:50:32 PHT,https://aft.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:50:34 PHT,https://aft.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:50:38 PHT,https://aft.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:50:41 PHT,https://aft.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:50:44 PHT,https://aft.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:50:46 PHT,https://aft.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:50:49 PHT,https://aft.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:50:52 PHT,https://aft.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:50:54 PHT,https://aft.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:50:57 PHT,https://aft.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:50:59 PHT,https://aft.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:51:01 PHT,https://aft.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:51:04 PHT,https://aft.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:51:06 PHT,https://aft.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:51:06 PHT,https://aft.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:51:09 PHT,https://aft.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:51:16 PHT,https://afsa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:51:18 PHT,https://afsa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:51:20 PHT,https://afsa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:51:23 PHT,https://afsa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:51:25 PHT,https://afsa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:51:28 PHT,https://afsa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:51:32 PHT,https://afsa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:51:34 PHT,https://afsa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:51:37 PHT,https://afsa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:51:39 PHT,https://afsa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:51:42 PHT,https://afsa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:51:45 PHT,https://afsa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:51:48 PHT,https://afsa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:51:50 PHT,https://afsa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:51:53 PHT,https://afsa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:51:55 PHT,https://afsa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:51:58 PHT,https://afsa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:52:00 PHT,https://afsa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:52:00 PHT,https://afsa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:52:03 PHT,https://afsa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:52:14 PHT,https://afm.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:52:16 PHT,https://afm.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:52:19 PHT,https://afm.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:52:22 PHT,https://afm.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:52:24 PHT,https://afm.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:52:27 PHT,https://afm.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:52:31 PHT,https://afm.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:52:33 PHT,https://afm.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:52:36 PHT,https://afm.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:52:39 PHT,https://afm.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:52:42 PHT,https://afm.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:52:44 PHT,https://afm.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:52:47 PHT,https://afm.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:52:50 PHT,https://afm.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:52:53 PHT,https://afm.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:52:55 PHT,https://afm.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:52:57 PHT,https://afm.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:53:00 PHT,https://afm.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:53:00 PHT,https://afm.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:53:03 PHT,https://afm.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:53:11 PHT,https://afa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:53:13 PHT,https://afa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:53:15 PHT,https://afa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:53:18 PHT,https://afa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:53:20 PHT,https://afa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:53:23 PHT,https://afa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:53:27 PHT,https://afa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:53:29 PHT,https://afa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:53:32 PHT,https://afa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:53:35 PHT,https://afa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:53:38 PHT,https://afa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:53:41 PHT,https://afa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:53:43 PHT,https://afa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:53:46 PHT,https://afa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:53:48 PHT,https://afa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:53:50 PHT,https://afa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:53:53 PHT,https://afa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:53:55 PHT,https://afa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:53:56 PHT,https://afa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:53:58 PHT,https://afa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:54:05 PHT,https://acba.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:54:07 PHT,https://acba.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:54:10 PHT,https://acba.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:54:12 PHT,https://acba.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:54:15 PHT,https://acba.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:54:18 PHT,https://acba.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:54:22 PHT,https://acba.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:54:24 PHT,https://acba.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:54:27 PHT,https://acba.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:54:29 PHT,https://acba.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:54:32 PHT,https://acba.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:54:35 PHT,https://acba.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:54:37 PHT,https://acba.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:54:40 PHT,https://acba.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:54:42 PHT,https://acba.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:54:44 PHT,https://acba.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:54:47 PHT,https://acba.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:54:50 PHT,https://acba.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:54:50 PHT,https://acba.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:54:52 PHT,https://acba.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:54:59 PHT,https://aba.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:55:01 PHT,https://aba.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:55:04 PHT,https://aba.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:55:06 PHT,https://aba.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:55:09 PHT,https://aba.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:55:11 PHT,https://aba.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:55:15 PHT,https://aba.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:55:18 PHT,https://aba.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:55:21 PHT,https://aba.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:55:23 PHT,https://aba.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:55:26 PHT,https://aba.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:55:29 PHT,https://aba.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:55:31 PHT,https://aba.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:55:34 PHT,https://aba.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:55:36 PHT,https://aba.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:55:38 PHT,https://aba.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:55:41 PHT,https://aba.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:55:44 PHT,https://aba.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:55:44 PHT,https://aba.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:55:46 PHT,https://aba.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:55:53 PHT,https://aaup.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:55:55 PHT,https://aaup.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:55:57 PHT,https://aaup.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:56:00 PHT,https://aaup.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:56:03 PHT,https://aaup.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:56:05 PHT,https://aaup.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:56:09 PHT,https://aaup.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:56:12 PHT,https://aaup.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:56:15 PHT,https://aaup.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:56:18 PHT,https://aaup.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:56:20 PHT,https://aaup.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:56:23 PHT,https://aaup.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:56:26 PHT,https://aaup.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:56:28 PHT,https://aaup.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:56:31 PHT,https://aaup.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:56:33 PHT,https://aaup.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:56:36 PHT,https://aaup.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:56:38 PHT,https://aaup.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:56:39 PHT,https://aaup.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:56:41 PHT,https://aaup.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:56:48 PHT,https://aas.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:56:50 PHT,https://aas.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:56:52 PHT,https://aas.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:56:55 PHT,https://aas.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:56:57 PHT,https://aas.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:57:00 PHT,https://aas.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:57:04 PHT,https://aas.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:57:06 PHT,https://aas.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:57:09 PHT,https://aas.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:57:12 PHT,https://aas.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:57:15 PHT,https://aas.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:57:17 PHT,https://aas.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:57:20 PHT,https://aas.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:57:23 PHT,https://aas.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:57:25 PHT,https://aas.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:57:27 PHT,https://aas.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:57:30 PHT,https://aas.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:57:33 PHT,https://aas.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:57:33 PHT,https://aas.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:57:36 PHT,https://aas.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:57:42 PHT,https://aapt.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:57:44 PHT,https://aapt.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:57:47 PHT,https://aapt.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:57:50 PHT,https://aapt.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:57:52 PHT,https://aapt.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:57:55 PHT,https://aapt.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:57:59 PHT,https://aapt.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:58:01 PHT,https://aapt.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:58:04 PHT,https://aapt.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:58:07 PHT,https://aapt.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:58:09 PHT,https://aapt.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:58:12 PHT,https://aapt.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:58:15 PHT,https://aapt.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:58:17 PHT,https://aapt.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:58:20 PHT,https://aapt.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:58:22 PHT,https://aapt.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:58:25 PHT,https://aapt.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:58:27 PHT,https://aapt.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:58:28 PHT,https://aapt.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:58:30 PHT,https://aapt.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:58:37 PHT,https://aapm.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:58:39 PHT,https://aapm.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:58:42 PHT,https://aapm.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:58:44 PHT,https://aapm.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:58:47 PHT,https://aapm.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:58:49 PHT,https://aapm.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:58:54 PHT,https://aapm.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:58:56 PHT,https://aapm.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:58:59 PHT,https://aapm.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:59:02 PHT,https://aapm.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 11:59:05 PHT,https://aapm.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 11:59:07 PHT,https://aapm.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 11:59:10 PHT,https://aapm.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 11:59:13 PHT,https://aapm.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 11:59:15 PHT,https://aapm.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 11:59:17 PHT,https://aapm.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 11:59:20 PHT,https://aapm.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 11:59:23 PHT,https://aapm.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:59:23 PHT,https://aapm.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 11:59:26 PHT,https://aapm.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 11:59:32 PHT,https://aaos.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 11:59:34 PHT,https://aaos.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 11:59:37 PHT,https://aaos.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 11:59:39 PHT,https://aaos.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 11:59:42 PHT,https://aaos.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 11:59:45 PHT,https://aaos.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 11:59:49 PHT,https://aaos.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 11:59:51 PHT,https://aaos.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 11:59:54 PHT,https://aaos.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 11:59:57 PHT,https://aaos.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:00:00 PHT,https://aaos.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:00:02 PHT,https://aaos.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:00:05 PHT,https://aaos.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:00:09 PHT,https://aaos.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:00:12 PHT,https://aaos.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:00:14 PHT,https://aaos.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:00:16 PHT,https://aaos.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:00:19 PHT,https://aaos.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:00:19 PHT,https://aaos.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:00:22 PHT,https://aaos.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:00:29 PHT,https://aaortho.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:00:31 PHT,https://aaortho.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:00:34 PHT,https://aaortho.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:00:36 PHT,https://aaortho.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:00:39 PHT,https://aaortho.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:00:41 PHT,https://aaortho.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:00:45 PHT,https://aaortho.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:00:48 PHT,https://aaortho.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:00:51 PHT,https://aaortho.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:00:53 PHT,https://aaortho.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:00:56 PHT,https://aaortho.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:00:59 PHT,https://aaortho.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:01:02 PHT,https://aaortho.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:01:04 PHT,https://aaortho.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:01:07 PHT,https://aaortho.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:01:09 PHT,https://aaortho.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:01:12 PHT,https://aaortho.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:01:14 PHT,https://aaortho.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:01:15 PHT,https://aaortho.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:01:17 PHT,https://aaortho.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:01:24 PHT,https://aace.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:01:26 PHT,https://aace.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:01:29 PHT,https://aace.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:01:31 PHT,https://aace.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:01:34 PHT,https://aace.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:01:37 PHT,https://aace.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:01:41 PHT,https://aace.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:01:43 PHT,https://aace.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:01:47 PHT,https://aace.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:01:49 PHT,https://aace.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:01:52 PHT,https://aace.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:01:55 PHT,https://aace.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:01:58 PHT,https://aace.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:02:00 PHT,https://aace.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:02:03 PHT,https://aace.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:02:05 PHT,https://aace.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:02:08 PHT,https://aace.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:02:10 PHT,https://aace.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:02:11 PHT,https://aace.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:02:14 PHT,https://aace.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:02:20 PHT,https://aip.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:02:22 PHT,https://aip.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:02:25 PHT,https://aip.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:02:28 PHT,https://aip.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:02:31 PHT,https://aip.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:02:34 PHT,https://aip.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:02:38 PHT,https://aip.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:02:40 PHT,https://aip.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:02:43 PHT,https://aip.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:02:46 PHT,https://aip.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:02:49 PHT,https://aip.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:02:52 PHT,https://aip.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:02:55 PHT,https://aip.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:02:57 PHT,https://aip.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:03:00 PHT,https://aip.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:03:03 PHT,https://aip.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:03:05 PHT,https://aip.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:03:08 PHT,https://aip.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:03:08 PHT,https://aip.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:03:12 PHT,https://aip.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:03:21 PHT,https://moose.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:03:23 PHT,https://moose.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:03:25 PHT,https://moose.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:03:28 PHT,https://moose.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:03:31 PHT,https://moose.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:03:33 PHT,https://moose.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:03:37 PHT,https://moose.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:03:40 PHT,https://moose.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:03:43 PHT,https://moose.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:03:46 PHT,https://moose.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:03:49 PHT,https://moose.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:03:52 PHT,https://moose.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:03:54 PHT,https://moose.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:03:57 PHT,https://moose.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:04:00 PHT,https://moose.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:04:02 PHT,https://moose.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:04:05 PHT,https://moose.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:04:07 PHT,https://moose.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:04:08 PHT,https://moose.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:04:13 PHT,https://moose.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:04:21 PHT,https://picpa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:04:24 PHT,https://picpa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:04:26 PHT,https://picpa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:04:29 PHT,https://picpa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:04:31 PHT,https://picpa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:04:34 PHT,https://picpa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:04:38 PHT,https://picpa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:04:41 PHT,https://picpa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:04:43 PHT,https://picpa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:04:46 PHT,https://picpa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:04:49 PHT,https://picpa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:04:52 PHT,https://picpa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:04:54 PHT,https://picpa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:04:57 PHT,https://picpa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:05:00 PHT,https://picpa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:05:02 PHT,https://picpa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:05:05 PHT,https://picpa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:05:08 PHT,https://picpa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:05:08 PHT,https://picpa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:05:10 PHT,https://picpa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-11 12:05:16 PHT,https://iscpa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-11 12:05:18 PHT,https://iscpa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-11 12:05:21 PHT,https://iscpa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-11 12:05:23 PHT,https://iscpa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-11 12:05:26 PHT,https://iscpa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-11 12:05:32 PHT,https://iscpa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-11 12:05:37 PHT,https://iscpa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-11 12:05:40 PHT,https://iscpa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-11 12:05:42 PHT,https://iscpa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-11 12:05:45 PHT,https://iscpa.ltcrplus.com/,Affinity Groups / Financial Institutions,PASS,PASS
+2026-04-11 12:05:48 PHT,https://iscpa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-04-11 12:05:51 PHT,https://iscpa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-04-11 12:05:54 PHT,https://iscpa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-04-11 12:05:57 PHT,https://iscpa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-04-11 12:05:59 PHT,https://iscpa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-04-11 12:06:02 PHT,https://iscpa.ltcrplus.com/,Navigate through Contact Us,PASS,PASS
+2026-04-11 12:06:04 PHT,https://iscpa.ltcrplus.com/,Navigate through NEW LOGIN/SIGNUP Button,PASS,PASS
+2026-04-11 12:06:07 PHT,https://iscpa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:06:07 PHT,https://iscpa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-11 12:06:10 PHT,https://iscpa.ltcrplus.com/,Click link and verify URL,PASS,PASS

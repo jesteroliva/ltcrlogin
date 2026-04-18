@@ -1,0 +1,17 @@
+time,module,step,status,message
+2026-04-18 11:17:35 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-18 11:17:54 PHT,https://ucdaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-18 11:18:05 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple carriers - shop,PASS,PASS
+2026-04-18 11:18:21 PHT,https://ucdaa.ltcrplus.com/,Navigate through Multiple Product Types -,PASS,PASS
+2026-04-18 11:18:33 PHT,https://ucdaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-18 11:18:45 PHT,https://ucdaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-18 11:18:57 PHT,https://ucdaa.ltcrplus.com/,Navigate through Lifetime Advocacy - Support,PASS,PASS
+2026-04-18 11:19:08 PHT,https://ucdaa.ltcrplus.com/,Navigate through LTC Funding Research,PASS,PASS
+2026-04-18 11:19:21 PHT,https://ucdaa.ltcrplus.com/,Navigate through Advice & Counseling,PASS,PASS
+2026-04-18 11:19:30 PHT,https://ucdaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:19:32 PHT,https://ucdaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-04-18 11:19:40 PHT,https://ucdaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-04-18 11:26:16 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Navigation,FAIL,"locator.click: Test ended.
+Call log:
+[2m  - waiting for getByRole('link', { name: ' Care Navigation' })[22m
+"

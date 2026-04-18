@@ -1,0 +1,812 @@
+time,module,step,status,message
+2026-03-27 13:08:15 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-03-27 13:08:21 PHT,https://aia.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:08:24 PHT,https://aia.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:08:27 PHT,https://aia.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:08:29 PHT,https://aia.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:08:32 PHT,https://aia.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:08:34 PHT,https://aia.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:08:36 PHT,https://aia.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:08:36 PHT,https://aia.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:08:39 PHT,https://aia.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:08:47 PHT,https://fuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:08:50 PHT,https://fuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:08:53 PHT,https://fuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:08:56 PHT,https://fuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:08:58 PHT,https://fuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:09:00 PHT,https://fuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:09:03 PHT,https://fuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:09:03 PHT,https://fuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:09:05 PHT,https://fuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:09:15 PHT,https://uconn.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:09:18 PHT,https://uconn.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:09:20 PHT,https://uconn.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:09:23 PHT,https://uconn.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:09:26 PHT,https://uconn.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:09:28 PHT,https://uconn.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:09:30 PHT,https://uconn.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:09:30 PHT,https://uconn.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:09:32 PHT,https://uconn.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:09:42 PHT,https://bgsu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:09:45 PHT,https://bgsu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:09:48 PHT,https://bgsu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:09:51 PHT,https://bgsu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:09:54 PHT,https://bgsu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:09:56 PHT,https://bgsu.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:09:59 PHT,https://bgsu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:09:59 PHT,https://bgsu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:10:00 PHT,https://bgsu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:10:11 PHT,https://vuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:10:14 PHT,https://vuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:10:16 PHT,https://vuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:10:19 PHT,https://vuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:10:22 PHT,https://vuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:10:25 PHT,https://vuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:10:27 PHT,https://vuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:10:27 PHT,https://vuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:10:29 PHT,https://vuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:10:39 PHT,https://ala.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:10:42 PHT,https://ala.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:10:44 PHT,https://ala.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:10:47 PHT,https://ala.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:10:50 PHT,https://ala.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:10:52 PHT,https://ala.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:10:55 PHT,https://ala.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:10:55 PHT,https://ala.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:10:56 PHT,https://ala.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:11:06 PHT,https://ashland.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:11:09 PHT,https://ashland.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:11:12 PHT,https://ashland.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:11:15 PHT,https://ashland.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:11:17 PHT,https://ashland.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:11:20 PHT,https://ashland.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:11:22 PHT,https://ashland.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:11:22 PHT,https://ashland.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:11:24 PHT,https://ashland.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:11:34 PHT,https://cubaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:11:37 PHT,https://cubaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:11:40 PHT,https://cubaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:11:43 PHT,https://cubaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:11:46 PHT,https://cubaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:11:48 PHT,https://cubaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:11:50 PHT,https://cubaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:11:50 PHT,https://cubaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:11:52 PHT,https://cubaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:12:02 PHT,https://ena.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:12:05 PHT,https://ena.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:12:07 PHT,https://ena.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:12:10 PHT,https://ena.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:12:13 PHT,https://ena.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:12:15 PHT,https://ena.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:12:17 PHT,https://ena.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:12:18 PHT,https://ena.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:12:19 PHT,https://ena.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:12:30 PHT,https://afsgts.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:12:32 PHT,https://afsgts.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:12:35 PHT,https://afsgts.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:12:38 PHT,https://afsgts.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:12:40 PHT,https://afsgts.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:12:43 PHT,https://afsgts.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:12:46 PHT,https://afsgts.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:12:46 PHT,https://afsgts.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:12:47 PHT,https://afsgts.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:12:58 PHT,https://nyuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:13:01 PHT,https://nyuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:13:03 PHT,https://nyuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:13:06 PHT,https://nyuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:13:09 PHT,https://nyuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:13:11 PHT,https://nyuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:13:13 PHT,https://nyuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:13:14 PHT,https://nyuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:13:15 PHT,https://nyuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:13:26 PHT,https://seauaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:13:29 PHT,https://seauaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:13:32 PHT,https://seauaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:13:34 PHT,https://seauaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:13:37 PHT,https://seauaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:13:39 PHT,https://seauaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:13:42 PHT,https://seauaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:13:42 PHT,https://seauaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:13:44 PHT,https://seauaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:13:53 PHT,https://calpolyp.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:13:56 PHT,https://calpolyp.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:13:59 PHT,https://calpolyp.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:14:02 PHT,https://calpolyp.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:14:05 PHT,https://calpolyp.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:14:07 PHT,https://calpolyp.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:14:09 PHT,https://calpolyp.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:14:09 PHT,https://calpolyp.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:14:11 PHT,https://calpolyp.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:14:21 PHT,https://mtaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:14:24 PHT,https://mtaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:14:27 PHT,https://mtaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:14:30 PHT,https://mtaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:14:32 PHT,https://mtaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:14:35 PHT,https://mtaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:14:37 PHT,https://mtaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:14:37 PHT,https://mtaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:14:39 PHT,https://mtaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:14:49 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:14:52 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:14:55 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:14:58 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:15:01 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:15:03 PHT,https://ccsuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:15:06 PHT,https://ccsuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:15:06 PHT,https://ccsuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:15:08 PHT,https://ccsuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:15:18 PHT,https://aoa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:15:21 PHT,https://aoa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:15:24 PHT,https://aoa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:15:27 PHT,https://aoa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:15:30 PHT,https://aoa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:15:32 PHT,https://aoa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:15:35 PHT,https://aoa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:15:35 PHT,https://aoa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:15:37 PHT,https://aoa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:15:47 PHT,https://ukaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:15:50 PHT,https://ukaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:15:52 PHT,https://ukaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:15:55 PHT,https://ukaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:15:58 PHT,https://ukaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:16:00 PHT,https://ukaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:16:02 PHT,https://ukaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:16:03 PHT,https://ukaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:16:04 PHT,https://ukaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:16:14 PHT,https://ucdaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:16:17 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:16:20 PHT,https://ucdaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:16:23 PHT,https://ucdaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:16:25 PHT,https://ucdaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:16:28 PHT,https://ucdaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:16:30 PHT,https://ucdaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:16:30 PHT,https://ucdaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:16:32 PHT,https://ucdaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:16:42 PHT,https://utaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:16:45 PHT,https://utaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:16:48 PHT,https://utaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:16:51 PHT,https://utaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:16:53 PHT,https://utaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:16:56 PHT,https://utaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:16:58 PHT,https://utaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:16:58 PHT,https://utaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:17:00 PHT,https://utaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:17:11 PHT,https://sfa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:17:14 PHT,https://sfa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:17:16 PHT,https://sfa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:17:20 PHT,https://sfa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:17:22 PHT,https://sfa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:17:25 PHT,https://sfa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:17:27 PHT,https://sfa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:17:27 PHT,https://sfa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:17:29 PHT,https://sfa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:17:39 PHT,https://nsula.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:17:42 PHT,https://nsula.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:17:45 PHT,https://nsula.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:17:48 PHT,https://nsula.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:17:51 PHT,https://nsula.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:17:53 PHT,https://nsula.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:17:56 PHT,https://nsula.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:17:56 PHT,https://nsula.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:17:58 PHT,https://nsula.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:18:08 PHT,https://uwga.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:18:11 PHT,https://uwga.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:18:13 PHT,https://uwga.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:18:16 PHT,https://uwga.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:18:19 PHT,https://uwga.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:18:22 PHT,https://uwga.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:18:24 PHT,https://uwga.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:18:24 PHT,https://uwga.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:18:26 PHT,https://uwga.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:18:36 PHT,https://unm.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:18:39 PHT,https://unm.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:18:42 PHT,https://unm.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:18:45 PHT,https://unm.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:18:48 PHT,https://unm.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:18:50 PHT,https://unm.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:18:53 PHT,https://unm.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:18:53 PHT,https://unm.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:18:55 PHT,https://unm.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:19:05 PHT,https://salis.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:19:08 PHT,https://salis.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:19:11 PHT,https://salis.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:19:13 PHT,https://salis.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:19:16 PHT,https://salis.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:19:18 PHT,https://salis.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:19:21 PHT,https://salis.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:19:21 PHT,https://salis.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:19:23 PHT,https://salis.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:19:33 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:19:36 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:19:38 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:19:41 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:19:44 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:19:46 PHT,https://rsvltaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:19:49 PHT,https://rsvltaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:19:49 PHT,https://rsvltaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:19:51 PHT,https://rsvltaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:20:01 PHT,https://uncc.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:20:04 PHT,https://uncc.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:20:07 PHT,https://uncc.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:20:09 PHT,https://uncc.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:20:12 PHT,https://uncc.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:20:15 PHT,https://uncc.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:20:17 PHT,https://uncc.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:20:17 PHT,https://uncc.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:20:19 PHT,https://uncc.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:20:29 PHT,https://raa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:20:32 PHT,https://raa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:20:35 PHT,https://raa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:20:38 PHT,https://raa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:20:41 PHT,https://raa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:20:43 PHT,https://raa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:20:46 PHT,https://raa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:20:46 PHT,https://raa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:20:48 PHT,https://raa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:20:58 PHT,https://sunyo.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:21:01 PHT,https://sunyo.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:21:04 PHT,https://sunyo.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:21:06 PHT,https://sunyo.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:21:09 PHT,https://sunyo.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:21:11 PHT,https://sunyo.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:21:14 PHT,https://sunyo.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:21:14 PHT,https://sunyo.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:21:16 PHT,https://sunyo.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:21:26 PHT,https://csun.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:21:29 PHT,https://csun.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:21:32 PHT,https://csun.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:21:34 PHT,https://csun.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:21:37 PHT,https://csun.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:21:39 PHT,https://csun.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:21:42 PHT,https://csun.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:21:42 PHT,https://csun.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:21:44 PHT,https://csun.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:21:54 PHT,https://acm.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:21:56 PHT,https://acm.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:21:59 PHT,https://acm.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:22:02 PHT,https://acm.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:22:05 PHT,https://acm.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:22:07 PHT,https://acm.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:22:10 PHT,https://acm.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:22:10 PHT,https://acm.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:22:11 PHT,https://acm.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:22:21 PHT,https://tie.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:22:24 PHT,https://tie.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:22:27 PHT,https://tie.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:22:30 PHT,https://tie.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:22:32 PHT,https://tie.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:22:34 PHT,https://tie.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:22:37 PHT,https://tie.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:22:37 PHT,https://tie.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:22:39 PHT,https://tie.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:22:48 PHT,https://mcaf.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:22:51 PHT,https://mcaf.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:22:54 PHT,https://mcaf.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:22:57 PHT,https://mcaf.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:23:00 PHT,https://mcaf.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:23:02 PHT,https://mcaf.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:23:04 PHT,https://mcaf.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:23:05 PHT,https://mcaf.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:23:07 PHT,https://mcaf.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:23:18 PHT,https://pcaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:23:21 PHT,https://pcaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:23:23 PHT,https://pcaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:23:26 PHT,https://pcaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:23:29 PHT,https://pcaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:23:31 PHT,https://pcaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:23:34 PHT,https://pcaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:23:34 PHT,https://pcaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:23:36 PHT,https://pcaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:23:46 PHT,https://csuful.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:23:49 PHT,https://csuful.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:23:52 PHT,https://csuful.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:23:55 PHT,https://csuful.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:23:58 PHT,https://csuful.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:24:00 PHT,https://csuful.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:24:03 PHT,https://csuful.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:24:03 PHT,https://csuful.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:24:05 PHT,https://csuful.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:24:16 PHT,https://geocare.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:24:18 PHT,https://geocare.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:24:21 PHT,https://geocare.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:24:24 PHT,https://geocare.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:24:27 PHT,https://geocare.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:24:29 PHT,https://geocare.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:24:32 PHT,https://geocare.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:24:32 PHT,https://geocare.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:24:35 PHT,https://geocare.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:24:46 PHT,https://acog.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:24:48 PHT,https://acog.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:24:51 PHT,https://acog.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:24:54 PHT,https://acog.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:24:57 PHT,https://acog.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:24:59 PHT,https://acog.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:25:01 PHT,https://acog.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:25:02 PHT,https://acog.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:25:04 PHT,https://acog.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:25:14 PHT,https://csucaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:25:16 PHT,https://csucaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:25:19 PHT,https://csucaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:25:22 PHT,https://csucaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:25:25 PHT,https://csucaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:25:27 PHT,https://csucaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:25:31 PHT,https://csucaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:25:31 PHT,https://csucaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:25:37 PHT,https://csucaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:25:49 PHT,https://fmcaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:25:53 PHT,https://fmcaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:25:57 PHT,https://fmcaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:26:01 PHT,https://fmcaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:26:05 PHT,https://fmcaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:26:09 PHT,https://fmcaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:26:13 PHT,https://fmcaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:26:13 PHT,https://fmcaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:26:20 PHT,https://fmcaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:26:31 PHT,https://muaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:26:35 PHT,https://muaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:26:39 PHT,https://muaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:26:43 PHT,https://muaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:26:47 PHT,https://muaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:26:51 PHT,https://muaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:26:55 PHT,https://muaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:26:55 PHT,https://muaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:27:01 PHT,https://muaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:27:12 PHT,https://wmaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:27:17 PHT,https://wmaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:27:21 PHT,https://wmaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:27:25 PHT,https://wmaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:27:29 PHT,https://wmaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:27:32 PHT,https://wmaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:27:36 PHT,https://wmaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:27:36 PHT,https://wmaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:27:43 PHT,https://wmaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:27:54 PHT,https://mscden.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:27:58 PHT,https://mscden.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:28:03 PHT,https://mscden.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:28:07 PHT,https://mscden.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:28:11 PHT,https://mscden.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:28:14 PHT,https://mscden.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:28:18 PHT,https://mscden.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:28:18 PHT,https://mscden.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:28:24 PHT,https://mscden.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:28:35 PHT,https://ucoaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:28:39 PHT,https://ucoaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:28:43 PHT,https://ucoaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:28:47 PHT,https://ucoaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:28:51 PHT,https://ucoaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:28:55 PHT,https://ucoaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:28:59 PHT,https://ucoaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:28:59 PHT,https://ucoaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:29:05 PHT,https://ucoaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:29:16 PHT,https://asuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:29:20 PHT,https://asuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:29:24 PHT,https://asuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:29:28 PHT,https://asuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:29:32 PHT,https://asuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:29:36 PHT,https://asuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:29:40 PHT,https://asuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:29:40 PHT,https://asuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:29:50 PHT,https://asuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:30:02 PHT,https://tsaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:30:08 PHT,https://tsaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:30:12 PHT,https://tsaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:30:19 PHT,https://tsaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:30:23 PHT,https://tsaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:30:27 PHT,https://tsaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:30:31 PHT,https://tsaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:30:31 PHT,https://tsaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:30:37 PHT,https://tsaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:30:50 PHT,https://aslha.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:30:54 PHT,https://aslha.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:30:58 PHT,https://aslha.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:31:02 PHT,https://aslha.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:31:06 PHT,https://aslha.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:31:10 PHT,https://aslha.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:31:14 PHT,https://aslha.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:31:14 PHT,https://aslha.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:31:21 PHT,https://aslha.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:31:32 PHT,https://nysscpa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:31:35 PHT,https://nysscpa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:31:40 PHT,https://nysscpa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:31:44 PHT,https://nysscpa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:31:49 PHT,https://nysscpa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:31:52 PHT,https://nysscpa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:31:56 PHT,https://nysscpa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:31:56 PHT,https://nysscpa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:32:03 PHT,https://nysscpa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:32:14 PHT,https://stcldaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:32:18 PHT,https://stcldaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:32:22 PHT,https://stcldaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:32:26 PHT,https://stcldaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:32:30 PHT,https://stcldaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:32:33 PHT,https://stcldaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:32:37 PHT,https://stcldaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:32:38 PHT,https://stcldaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:32:44 PHT,https://stcldaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:32:55 PHT,https://devry.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:32:59 PHT,https://devry.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:33:03 PHT,https://devry.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:33:07 PHT,https://devry.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:33:11 PHT,https://devry.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:33:15 PHT,https://devry.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:33:19 PHT,https://devry.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:33:19 PHT,https://devry.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:33:26 PHT,https://devry.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:33:38 PHT,https://sfsu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:33:42 PHT,https://sfsu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:33:46 PHT,https://sfsu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:33:50 PHT,https://sfsu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:33:54 PHT,https://sfsu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:33:57 PHT,https://sfsu.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:34:01 PHT,https://sfsu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:34:02 PHT,https://sfsu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:34:09 PHT,https://sfsu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:34:19 PHT,https://vfwaux.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:34:23 PHT,https://vfwaux.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:34:28 PHT,https://vfwaux.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:34:32 PHT,https://vfwaux.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:34:36 PHT,https://vfwaux.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:34:39 PHT,https://vfwaux.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:34:43 PHT,https://vfwaux.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:34:44 PHT,https://vfwaux.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:34:54 PHT,https://vfwaux.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:35:06 PHT,https://njcpa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:35:10 PHT,https://njcpa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:35:14 PHT,https://njcpa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:35:18 PHT,https://njcpa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:35:22 PHT,https://njcpa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:35:25 PHT,https://njcpa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:35:29 PHT,https://njcpa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:35:29 PHT,https://njcpa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:35:35 PHT,https://njcpa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:35:47 PHT,https://njsba.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:35:52 PHT,https://njsba.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:35:56 PHT,https://njsba.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:36:00 PHT,https://njsba.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:36:04 PHT,https://njsba.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:36:08 PHT,https://njsba.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:36:12 PHT,https://njsba.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:36:12 PHT,https://njsba.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:36:18 PHT,https://njsba.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:36:29 PHT,https://pba.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:36:33 PHT,https://pba.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:36:37 PHT,https://pba.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:36:41 PHT,https://pba.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:36:45 PHT,https://pba.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:36:50 PHT,https://pba.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:36:54 PHT,https://pba.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:36:54 PHT,https://pba.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:37:00 PHT,https://pba.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:37:12 PHT,https://cuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:37:16 PHT,https://cuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:37:20 PHT,https://cuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:37:24 PHT,https://cuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:37:28 PHT,https://cuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:37:32 PHT,https://cuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:37:36 PHT,https://cuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:37:36 PHT,https://cuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:37:43 PHT,https://cuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:37:56 PHT,https://ucocs.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:38:00 PHT,https://ucocs.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:38:04 PHT,https://ucocs.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:38:08 PHT,https://ucocs.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:38:12 PHT,https://ucocs.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:38:15 PHT,https://ucocs.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:38:19 PHT,https://ucocs.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:38:19 PHT,https://ucocs.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:38:26 PHT,https://ucocs.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:38:39 PHT,https://njit.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:38:43 PHT,https://njit.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:38:48 PHT,https://njit.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:38:54 PHT,https://njit.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:38:58 PHT,https://njit.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:39:02 PHT,https://njit.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:39:06 PHT,https://njit.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:39:06 PHT,https://njit.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:39:12 PHT,https://njit.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:39:23 PHT,https://afedsa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:39:27 PHT,https://afedsa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:39:31 PHT,https://afedsa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:39:35 PHT,https://afedsa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:39:39 PHT,https://afedsa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:39:43 PHT,https://afedsa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:39:47 PHT,https://afedsa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:39:47 PHT,https://afedsa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:39:54 PHT,https://afedsa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:40:06 PHT,https://aiit.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:40:11 PHT,https://aiit.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:40:16 PHT,https://aiit.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:40:20 PHT,https://aiit.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:40:25 PHT,https://aiit.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:40:29 PHT,https://aiit.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:40:35 PHT,https://aiit.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:40:35 PHT,https://aiit.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:40:41 PHT,https://aiit.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:40:53 PHT,https://usba.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:40:58 PHT,https://usba.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:41:02 PHT,https://usba.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:41:06 PHT,https://usba.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:41:10 PHT,https://usba.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:41:13 PHT,https://usba.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:41:17 PHT,https://usba.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:41:18 PHT,https://usba.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:41:21 PHT,https://usba.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:41:33 PHT,https://utsaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:41:37 PHT,https://utsaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:41:41 PHT,https://utsaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:41:45 PHT,https://utsaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:41:49 PHT,https://utsaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:41:52 PHT,https://utsaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:41:56 PHT,https://utsaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:41:56 PHT,https://utsaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:42:02 PHT,https://utsaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:42:14 PHT,https://bcf.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:42:18 PHT,https://bcf.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:42:23 PHT,https://bcf.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:42:27 PHT,https://bcf.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:42:30 PHT,https://bcf.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:42:34 PHT,https://bcf.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:42:38 PHT,https://bcf.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:42:38 PHT,https://bcf.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:42:44 PHT,https://bcf.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:42:55 PHT,https://lsus.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:42:59 PHT,https://lsus.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:43:03 PHT,https://lsus.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:43:07 PHT,https://lsus.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:43:11 PHT,https://lsus.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:43:15 PHT,https://lsus.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:43:19 PHT,https://lsus.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:43:19 PHT,https://lsus.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:43:25 PHT,https://lsus.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:43:37 PHT,https://wscaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:43:41 PHT,https://wscaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:43:45 PHT,https://wscaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:43:50 PHT,https://wscaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:43:54 PHT,https://wscaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:43:57 PHT,https://wscaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:44:01 PHT,https://wscaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:44:02 PHT,https://wscaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:44:08 PHT,https://wscaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:44:19 PHT,https://umem.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:44:23 PHT,https://umem.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:44:27 PHT,https://umem.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:44:31 PHT,https://umem.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:44:35 PHT,https://umem.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:44:39 PHT,https://umem.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:44:43 PHT,https://umem.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:44:43 PHT,https://umem.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:44:49 PHT,https://umem.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:45:00 PHT,https://elizc.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:45:04 PHT,https://elizc.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:45:08 PHT,https://elizc.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:45:12 PHT,https://elizc.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:45:17 PHT,https://elizc.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:45:22 PHT,https://elizc.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:45:25 PHT,https://elizc.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:45:25 PHT,https://elizc.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:45:31 PHT,https://elizc.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:45:44 PHT,https://unhaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:45:48 PHT,https://unhaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:45:52 PHT,https://unhaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:45:56 PHT,https://unhaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:46:00 PHT,https://unhaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:46:05 PHT,https://unhaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:46:09 PHT,https://unhaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:46:09 PHT,https://unhaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:46:16 PHT,https://unhaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:46:28 PHT,https://gwaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:46:32 PHT,https://gwaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:46:36 PHT,https://gwaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:46:40 PHT,https://gwaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:46:44 PHT,https://gwaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:46:49 PHT,https://gwaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:46:53 PHT,https://gwaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:46:53 PHT,https://gwaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:47:00 PHT,https://gwaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:47:13 PHT,https://roa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:47:18 PHT,https://roa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:47:23 PHT,https://roa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:47:27 PHT,https://roa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:47:32 PHT,https://roa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:47:37 PHT,https://roa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:47:41 PHT,https://roa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:47:42 PHT,https://roa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:47:49 PHT,https://roa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:48:01 PHT,https://mvip.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:48:06 PHT,https://mvip.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:48:11 PHT,https://mvip.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:48:16 PHT,https://mvip.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:48:21 PHT,https://mvip.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:48:26 PHT,https://mvip.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:48:30 PHT,https://mvip.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:48:31 PHT,https://mvip.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:48:38 PHT,https://mvip.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:48:50 PHT,https://acep.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:48:55 PHT,https://acep.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:49:00 PHT,https://acep.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:49:07 PHT,https://acep.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:49:12 PHT,https://acep.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:49:16 PHT,https://acep.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:49:20 PHT,https://acep.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:49:21 PHT,https://acep.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:49:30 PHT,https://acep.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:49:42 PHT,https://naea.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:49:46 PHT,https://naea.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:49:51 PHT,https://naea.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:49:56 PHT,https://naea.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:50:02 PHT,https://naea.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:50:06 PHT,https://naea.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:50:11 PHT,https://naea.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:50:11 PHT,https://naea.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:50:18 PHT,https://naea.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:50:31 PHT,https://bemidji.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:50:36 PHT,https://bemidji.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:50:41 PHT,https://bemidji.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:50:46 PHT,https://bemidji.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:50:51 PHT,https://bemidji.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:50:55 PHT,https://bemidji.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:51:00 PHT,https://bemidji.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:51:00 PHT,https://bemidji.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:51:09 PHT,https://bemidji.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:51:21 PHT,https://eiuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:51:26 PHT,https://eiuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:51:32 PHT,https://eiuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:51:36 PHT,https://eiuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:51:41 PHT,https://eiuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:51:46 PHT,https://eiuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:51:50 PHT,https://eiuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:51:51 PHT,https://eiuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:52:00 PHT,https://eiuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:52:12 PHT,https://acos.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:52:17 PHT,https://acos.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:52:22 PHT,https://acos.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:52:29 PHT,https://acos.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:52:34 PHT,https://acos.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:52:39 PHT,https://acos.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:52:43 PHT,https://acos.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:52:44 PHT,https://acos.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:52:51 PHT,https://acos.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:53:03 PHT,https://aota.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:53:08 PHT,https://aota.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:53:13 PHT,https://aota.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:53:18 PHT,https://aota.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:53:23 PHT,https://aota.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:53:27 PHT,https://aota.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:53:31 PHT,https://aota.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:53:32 PHT,https://aota.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:53:41 PHT,https://aota.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:53:53 PHT,https://ccny.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:53:58 PHT,https://ccny.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:54:03 PHT,https://ccny.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:54:08 PHT,https://ccny.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:54:13 PHT,https://ccny.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:54:18 PHT,https://ccny.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:54:22 PHT,https://ccny.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:54:22 PHT,https://ccny.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:54:29 PHT,https://ccny.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:54:41 PHT,https://wvu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:54:46 PHT,https://wvu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:54:51 PHT,https://wvu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:54:56 PHT,https://wvu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:55:02 PHT,https://wvu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:55:06 PHT,https://wvu.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:55:10 PHT,https://wvu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:55:11 PHT,https://wvu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:55:19 PHT,https://wvu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:55:30 PHT,https://nmichu.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:55:35 PHT,https://nmichu.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:55:40 PHT,https://nmichu.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:55:48 PHT,https://nmichu.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:55:52 PHT,https://nmichu.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:55:57 PHT,https://nmichu.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:56:01 PHT,https://nmichu.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:56:01 PHT,https://nmichu.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:56:10 PHT,https://nmichu.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:56:22 PHT,https://csiaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:56:27 PHT,https://csiaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:56:31 PHT,https://csiaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:56:36 PHT,https://csiaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:56:41 PHT,https://csiaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:56:46 PHT,https://csiaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:56:50 PHT,https://csiaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:56:50 PHT,https://csiaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:56:59 PHT,https://csiaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:57:11 PHT,https://usal.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:57:16 PHT,https://usal.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:57:21 PHT,https://usal.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:57:26 PHT,https://usal.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:57:31 PHT,https://usal.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:57:35 PHT,https://usal.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:57:39 PHT,https://usal.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:57:40 PHT,https://usal.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:57:48 PHT,https://usal.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:58:00 PHT,https://apa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:58:05 PHT,https://apa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:58:10 PHT,https://apa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:58:15 PHT,https://apa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:58:20 PHT,https://apa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:58:25 PHT,https://apa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:58:29 PHT,https://apa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:58:29 PHT,https://apa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:58:38 PHT,https://apa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:58:48 PHT,https://aaa-co.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:58:53 PHT,https://aaa-co.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:58:58 PHT,https://aaa-co.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:59:03 PHT,https://aaa-co.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:59:08 PHT,https://aaa-co.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 13:59:13 PHT,https://aaa-co.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 13:59:17 PHT,https://aaa-co.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:59:17 PHT,https://aaa-co.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 13:59:25 PHT,https://aaa-co.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 13:59:37 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 13:59:42 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 13:59:45 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 13:59:51 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 13:59:56 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:00:00 PHT,https://ilsuaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:00:05 PHT,https://ilsuaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:00:05 PHT,https://ilsuaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:00:13 PHT,https://ilsuaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:00:26 PHT,https://uneo.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:00:31 PHT,https://uneo.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:00:36 PHT,https://uneo.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:00:41 PHT,https://uneo.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:00:47 PHT,https://uneo.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:00:51 PHT,https://uneo.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:00:55 PHT,https://uneo.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:00:56 PHT,https://uneo.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:01:04 PHT,https://uneo.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:01:16 PHT,https://txex.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:01:21 PHT,https://txex.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:01:26 PHT,https://txex.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:01:31 PHT,https://txex.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:01:36 PHT,https://txex.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:01:41 PHT,https://txex.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:01:45 PHT,https://txex.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:01:46 PHT,https://txex.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:01:55 PHT,https://txex.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:02:07 PHT,https://icaa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:02:12 PHT,https://icaa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:02:17 PHT,https://icaa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:02:22 PHT,https://icaa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:02:27 PHT,https://icaa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:02:32 PHT,https://icaa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:02:36 PHT,https://icaa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:02:36 PHT,https://icaa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:02:43 PHT,https://icaa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:02:55 PHT,https://loyno.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:03:00 PHT,https://loyno.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:03:05 PHT,https://loyno.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:03:10 PHT,https://loyno.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:03:15 PHT,https://loyno.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:03:20 PHT,https://loyno.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:03:24 PHT,https://loyno.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:03:25 PHT,https://loyno.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:03:33 PHT,https://loyno.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:03:44 PHT,https://nescpa.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:03:49 PHT,https://nescpa.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:03:54 PHT,https://nescpa.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:04:01 PHT,https://nescpa.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:04:06 PHT,https://nescpa.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:04:10 PHT,https://nescpa.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:04:14 PHT,https://nescpa.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:04:15 PHT,https://nescpa.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:04:25 PHT,https://nescpa.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:04:37 PHT,https://ashp.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:04:42 PHT,https://ashp.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:04:47 PHT,https://ashp.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:04:54 PHT,https://ashp.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:04:59 PHT,https://ashp.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:05:04 PHT,https://ashp.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:05:09 PHT,https://ashp.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:05:10 PHT,https://ashp.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:05:18 PHT,https://ashp.ltcrplus.com/,Click link and verify URL,PASS,PASS
+2026-03-27 14:05:31 PHT,https://extx.ltcrplus.com/,Navigate through Advice and Counseling,PASS,PASS
+2026-03-27 14:05:36 PHT,https://extx.ltcrplus.com/,Navigate through Care Navigation,PASS,PASS
+2026-03-27 14:05:41 PHT,https://extx.ltcrplus.com/,Navigate through Claims Assistance,PASS,PASS
+2026-03-27 14:05:48 PHT,https://extx.ltcrplus.com/,Navigate through Maximize Benefits,PASS,PASS
+2026-03-27 14:05:53 PHT,https://extx.ltcrplus.com/,Navigate through Online Legal Benefits,PASS,PASS
+2026-03-27 14:05:57 PHT,https://extx.ltcrplus.com/,Navigate through Care Discounts,PASS,PASS
+2026-03-27 14:06:02 PHT,https://extx.ltcrplus.com/,Navigate to Care Discounts and check for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:06:02 PHT,https://extx.ltcrplus.com/,Check for Request for Complimentary Evaluation button,PASS,PASS
+2026-03-27 14:06:08 PHT,https://extx.ltcrplus.com/,Click link and verify URL,PASS,PASS

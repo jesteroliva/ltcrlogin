@@ -1,0 +1,97 @@
+time,module,step,status,message
+2026-04-10 13:23:00 PHT,Check if Request for Complimentary Evaluation section is present, ,INFO,START
+2026-04-10 13:23:06 PHT,https://purdue.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:23:08 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:23:11 PHT,https://purdue.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:23:13 PHT,https://purdue.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:23:16 PHT,https://purdue.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:23:18 PHT,https://purdue.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:23:22 PHT,https://purdue.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:23:24 PHT,https://purdue.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:23:27 PHT,https://purdue.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:23:34 PHT,https://purdue.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
+2026-04-10 13:23:43 PHT,https://uncaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:23:47 PHT,https://uncaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:23:49 PHT,https://uncaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:23:53 PHT,https://uncaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:23:57 PHT,https://uncaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:24:01 PHT,https://uncaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:24:07 PHT,https://uncaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:24:12 PHT,https://uncaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:24:16 PHT,https://uncaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:24:24 PHT,https://uncaa.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
+2026-04-10 13:24:35 PHT,https://psuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:24:38 PHT,https://psuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:24:41 PHT,https://psuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:24:45 PHT,https://psuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:24:51 PHT,https://psuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:24:55 PHT,https://psuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:25:01 PHT,https://psuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:25:05 PHT,https://psuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:25:10 PHT,https://psuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:25:18 PHT,https://psuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
+2026-04-10 13:25:27 PHT,https://avmalife.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:25:30 PHT,https://avmalife.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:25:34 PHT,https://avmalife.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:25:37 PHT,https://avmalife.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:25:40 PHT,https://avmalife.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:25:43 PHT,https://avmalife.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:25:47 PHT,https://avmalife.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:25:49 PHT,https://avmalife.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:25:52 PHT,https://avmalife.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:25:59 PHT,https://avmalife.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
+2026-04-10 13:26:09 PHT,https://byuaa.ltcrplus.com/,Navigate through Family Care Concierge Benefits,PASS,PASS
+2026-04-10 13:26:12 PHT,https://byuaa.ltcrplus.com/,Navigate through Multiple Carriers,PASS,PASS
+2026-04-10 13:26:17 PHT,https://byuaa.ltcrplus.com/,Navigate through Multiple Product,PASS,PASS
+2026-04-10 13:26:21 PHT,https://byuaa.ltcrplus.com/,Navigate through Exclusive Group Discounts,PASS,PASS
+2026-04-10 13:26:25 PHT,https://byuaa.ltcrplus.com/,Navigate through Underwriting,PASS,PASS
+2026-04-10 13:26:29 PHT,https://byuaa.ltcrplus.com/,Lifetime Advocacy - Support,PASS,PASS
+2026-04-10 13:26:35 PHT,https://byuaa.ltcrplus.com/,LTC Funding Research,PASS,PASS
+2026-04-10 13:26:37 PHT,https://byuaa.ltcrplus.com/,Members / Consumers,PASS,PASS
+2026-04-10 13:26:40 PHT,https://byuaa.ltcrplus.com/,Agents / Advisers,PASS,PASS
+2026-04-10 13:26:47 PHT,https://byuaa.ltcrplus.com/,Affinity Groups / Financial Institutions,FAIL,"[2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected: [32m""https://ltcrplus.com/affinity-groups-financial-institutions/[7m/[27m""[39m
+Received: [31m""https://ltcrplus.com/affinity-groups-financial-institutions/""[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect ""toHaveURL"" with timeout 5000ms[22m
+[2m    9 × unexpected value ""https://ltcrplus.com/affinity-groups-financial-institutions/""[22m
+"
